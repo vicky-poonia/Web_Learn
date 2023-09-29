@@ -8,9 +8,6 @@
 let form = document.getElementById("form").addEventListener("submit", addData);
 window.addEventListener("DOMContentLoaded", getData);
 
-let updt = document.getElementById("update").addEventListener("submit", editUserItemFromBackend(userId));
-window.addEventListener("DOMContentLoaded", getData);
-
 // Taking input from user
 async function addData(e) {
   e.preventDefault();
