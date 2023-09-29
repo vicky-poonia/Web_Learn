@@ -1,59 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <div id="header">
-      <h1>FlipCard</h1>
+        <h1>FlipCard</h1>
     </div>
 
     <div id="form_div">
-      <form action="" id="form">
-        <label for="name">Product Name: </label>
-        <input
-          type="text"
-          id="name"
-          placeholder="Enter product name"
-          minlength="2"
-          maxlength="12"
-          required
-        />
+        <form action="" id="form">
+            <label for="name">Product Name: </label>
+            <input type="text" id="name" placeholder="Enter product name" minlength="2" maxlength="12" required>
 
-        <label for="price">Product Price: </label>
-        <input
-          type="number"
-          name="price"
-          id="price"
-          placeholder="Enter Price"
-          required
-        />
+            <label for="price">Product Price: </label>
+            <input type="number" name="price" id="price" placeholder="Enter Price" required>
 
-        <label for="cat">Choose Category:</label>
-        <select name="cat" id="select">
-          <option value="Electronic">Electornic</option>
-          <option value="Skin-Product">Skin-Product</option>
-          <option value="Food">Food</option>
-        </select>
-        <button class="btn">Add</button>
-      </form>
-      <button id="update" onclick="editUserItemFromBackend(userId)">
-        Update
-      </button>
-      <h2>Electornic</h2>
-      <ol id="flist"></ol>
+            <label for="cat">Choose Category:</label>
+            <select name="cat" id="select">
+                <option value="Electronic">Electornic</option>
+                <option value="Skin-Product">Skin-Product</option>
+                <option value="Food">Food</option>
+            </select>
+            <button class="btn">Add</button>
+            
+        </form>
+        <button class="update" onclick="editUserItemFromBackend(userId)">Update</button>
+            <h2>Electornic</h2>
+            <ol id="flist">
+            </ol>
 
-      <h2>Skin-Product</h2>
-      <ol id="clist"></ol>
+            <h2>Skin-Product</h2>
+            <ol id="clist"></ol>
 
-      <h2>Food</h2>
-      <ol id="elist"></ol>
+            <h2>Food</h2>
+            <ol id="elist"></ol>
+        
     </div>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script> -->
     <script src="./script.js"></script>
-  </body>
+</body>
+
 </html>
+
+
