@@ -1,0 +1,400 @@
+/* 5. desktop responsive css 1120px to 1239px
+------------------------------------------------------------------------------*/
+@media (min-width:1120px) and (max-width:1239px) {
+
+	/* --------- category-page01 ---------- */
+	/* ---------------------------------- */
+	.category-page01 .course-listing .list-item .course-details .title {
+		font-size: 17px;
+	}
+
+	.category-page01 .course-listing .list-item .couser-img {
+		max-width: 210px;
+	}
+
+	.category-page01 .course-listing .list-item .couser-img .course-preview figure {
+		max-width: 22px;
+	}
+
+	.category-page01 .course-listing .list-item .couser-img .course-preview span {
+		font-size: 13px;
+	}
+
+	.category-page01 .course-listing .list-item .item-content {
+		padding: 8px 10px 12px;
+	}
+
+	/* --------- product-page ---------- */
+	/* ---------------------------------- */
+	.product-banner .product-details .course-img {
+		max-width: 250px;
+	}
+
+	.product-banner .course-content .title {
+		font-size: 22px;
+	}
+
+	.product-banner .course-content .rating-block {
+		padding: 9px 10px;
+		margin-bottom: 10px;
+	}
+
+	.product-banner .course-content .course-highlights>div+div {
+		margin-left: 30px;
+	}
+
+	.product-banner .course-content .course-highlights span {
+		font-size: 17px;
+	}
+
+	.product-banner .right-part .total-learners .icon {
+		font-size: 25px;
+	}
+
+	.product-banner .right-part .total-learners span {
+		font-size: 15px;
+	}
+
+	.buy-box {
+		max-width: 320px;
+	}
+
+	.product-page .container-left {
+		max-width: calc(100% - 350px);
+	}
+
+	.training-options .option-group .option {
+		margin: 0 0 0 10px;
+	}
+
+	.training-options .option-group .option .custom-checkbox {
+		padding: 15px;
+	}
+
+	.training-options .option-group .option .price-and-offer .price-block .price {
+		font-size: 20px;
+	}
+
+	.training-options .option-group .option .price-and-offer .price-block .old-price {
+		font-size: 15px;
+	}
+
+	.product-page .review-block {
+		padding: 40px 0;
+	}
+
+	.product-page .review-block .video-review .title figure {
+		max-width: 40px;
+	}
+
+	.product-page .review-block .owl-carousel .owl-nav button.owl-prev {
+		left: -15px;
+	}
+
+	.product-page .review-block .aboutus-block .block {
+		margin-bottom: 20px;
+	}
+
+	.product-page .review-block .aboutus-block .block .student-img {
+		margin: 0 30px 0 0;
+	}
+
+	.product-page .review-block .aboutus-block .block .review-content {
+		padding-bottom: 20px
+	}
+
+	.product-page .review-block .aboutus-block .block .review-content p {
+		margin-bottom: 16px;
+	}
+
+	.product-page .review-block .aboutus-block .total-feedback {
+		max-width: calc(100% - 90px);
+	}
+
+	.faq-block .tab_wrapper .tab_list li {
+		padding: 0 0 15px;
+	}
+
+	.course-slider .course-group .course .course-content {
+		padding: 10px 12px 15px;
+	}
+
+	/* --------- product-page if comming-soon---------- */
+	/* ------------------------------------------------- */
+	.training-options .option-group .option.comming-soon {
+		padding: 15px;
+	}
+
+	.training-options .option-group .option.comming-soon .title {
+		margin-bottom: 15px;
+	}
+
+	.training-options .option-group .option.comming-soon .price-block {
+		font-size: 20px
+	}
+
+	/* --------- review-page ---------- */
+	/* ---------------------------------- */
+	.review-banner {
+		height: 330px;
+	}
+
+	.review-banner .banner-title {
+		line-height: 1.4;
+	}
+
+	.review-banner .right-part {
+		max-width: 460px;
+	}
+
+	.review-banner .right-part:before {
+		bottom: -14px;
+	}
+
+	.review-page .review-block .owl-carousel .owl-nav button.owl-next {
+		right: -15px;
+	}
+
+	.review-page .review-block .owl-carousel .owl-nav button.owl-prev {
+		left: -15px;
+	}
+
+	.review-page .two-column .left-section {
+		margin: 0 30px 0 0;
+	}
+
+	/* --------- write a review-page ---------- */
+	/* --------------------------------------- */
+	.write-review-page .left-column {
+		padding: 25px 30px 50px 0
+	}
+
+	.write-review-page .right-column {
+		padding: 25px 0 0 30px;
+	}
+
+	/* --------- webinars-page ---------- */
+	/* ---------------------------------- */
+	.webinars-banner {
+		height: 300px;
+	}
+
+	.webinars-banner .left-part .title {
+		font-size: 33px;
+	}
+
+	.webinars-banner .left-part .caption {
+		font-size: 23px;
+	}
+
+	.webinars-banner .right-part {
+		max-width: 452px;
+	}
+
+	.webinar-listing .list-item .img-block {
+		max-width: 400px;
+	}
+
+	/* --------- aboutus-page ---------- */
+	/* ---------------------------------- */
+	.aboutus-banner {
+		height: 300px;
+	}
+
+	.aboutus-banner .left {
+		max-width: 380px;
+	}
+
+	.aboutus-banner .left h1 {
+		font-size: 26px;
+	}
+
+	.aboutus-page .our-journy .left h2 {
+		font-size: 24px;
+	}
+
+	.aboutus-page .our-journy .right {
+		max-width: 370px;
+	}
+
+	.aboutus-page .our-journy .right p {
+		font-size: 19px;
+	}
+
+	.helped-block h3 {
+		font-size: 30px;
+	}
+
+	.borad-diretors .title {
+		font-size: 23px;
+	}
+
+	.borad-diretors .block-group .block figure {
+		max-width: 90px;
+		height: 90px;
+	}
+
+	.team-block .block-group .block figure {
+		max-width: 90px;
+		height: 90px;
+	}
+
+
+	/* ----------- Free test page ----------- */
+	/* -------------------------------------- */
+	.freetest-banner .left {
+		max-width: calc(100% - 360px);
+	}
+
+	.freetest-page .left-column {
+		max-width: calc(100% - 360px);
+		margin: 0 30px 0 0;
+	}
+
+	.freetest-page .left-column .visit-block {
+		margin-right: 0;
+	}
+
+	.freetest-page .left-column .test-group .test-block .title {
+		font-size: 22px;
+	}
+
+	.freetest-page .price-bar .top .price-block .price {
+		font-size: 40px;
+	}
+
+	/* --------- aws-consulting-page ---------- */
+	/* --------------------------------------- */
+	.aws-consulting-page h4 {
+		font-size: 30px;
+	}
+
+	.banner-aws-consulting {
+		height: 500px;
+	}
+
+	.banner-aws-consulting .left h1 {
+		font-size: 43px;
+	}
+
+	.banner-aws-consulting .img-block {
+		max-width: 775px;
+	}
+
+	.why-choose-block .left-block {
+		padding: 60px 0 50px 50px;
+	}
+
+	.why-choose-block .left-block h3 {
+		font-size: 34px;
+	}
+
+	.why-choose-block .left-block .sub-title {
+		font-size: 25px;
+	}
+
+	.why-choose-block .right-block {
+		max-width: 380px;
+		height: 450px;
+		padding: 100px 50px 50px;
+	}
+
+	.why-choose-block .right-block .text {
+		font-size: 45px;
+	}
+
+	.consulting-expert-block .caption .title {
+		font-size: 37px;
+	}
+
+	.consulting-expert-block figure {
+		max-width: 470px;
+		margin: auto 0 0 70px;
+	}
+
+	/* ------- reseller-register-page -------- */
+	/* --------------------------------------- */
+	.register-page .graphic-img:before {
+		left: 15px;
+		width: 540px;
+		height: 540px;
+	}
+
+	.register-page .left .content p {
+		max-width: 520px;
+		font-size: 30px;
+	}
+
+	.register-page .right .box .head figure {
+		max-width: 80px;
+	}
+
+	/* ----------- parner with us page ----------- */
+	/* -------------------------------------- */
+	/* parner-banner-block */
+	.parner-banner-block {
+		height: 330px;
+	}
+
+	.parner-banner-block .left .title {
+		font-size: 34px;
+	}
+
+	.parner-banner-block .right figure {
+		max-width: 600px;
+	}
+
+	/* participation-types */
+	.participation-types .type .block-group .right-block figure {
+		max-width: 420px;
+	}
+
+	/* --------- reset-password-page ----- */
+	/* ---------------------------------- */
+	.reset-password figure {
+		max-width: 210px;
+	}
+
+	/* ------------------------------------- */
+	/* --------- Dashboard pages ---------- */
+	/* ------------------------------------- */
+	.sub-header .left h1 {
+		font-size: 26px;
+	}
+
+	/* ----- Dashboard-page ----- */
+	/* -------------------------- */
+	.dashboard-page .course-listing .list-item .couser-img {
+		max-width: 160px;
+	}
+
+	.dashboard-page .recent-activity .course-listing .list-item .couser-img {
+		max-width: 130px;
+	}
+
+	/* ----- Dashboard Account Setting page ----- */
+	/* ----------------------------------------- */
+	/* tab details */
+	.details-group .white-box .input-box {
+		max-width: calc(50% - 8px);
+	}
+
+	/* tab dashboard-subscription */
+	.dashboard-subscription .plans-block .block-group .block.premium .block-title {
+		font-size: 25px;
+	}
+
+	/* ----- Dashboard Wallet page ----- */
+	/* --------------------------------- */
+	/* tab refer-friend */
+	#tab-referfriend .left .head {
+		margin-bottom: 40px;
+	}
+
+	#tab-referfriend .right .earned-block .earn-price {
+		font-size: 58px;
+	}
+
+
+}
+

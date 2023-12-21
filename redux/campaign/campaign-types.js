@@ -1,0 +1,3 @@
+export const SET_OFFER = "SET_OFFER"
+export const CLEAR_OFFER = "CLEAR_OFFER"
+export const STORE_CAMPAIGN_DETAILS = "STORE_CAMPAIGN_DETAILS"

@@ -1,0 +1,137 @@
+/* 3. iPad responsive css 768px to 1023px
+------------------------------------------------------------------------------*/
+@media (min-width:768px) and (max-width:1023px){
+	h1{font-size: 28px; margin-bottom: 10px;}
+	h2{font-size: 24px; margin-bottom: 10px;}
+	h3{font-size: 22px; margin-bottom: 10px;}
+	h4{font-size: 20px; margin-bottom: 10px;}
+	h5{font-size: 18px; margin-bottom: 10px;}
+	h6{font-size: 16px; margin-bottom: 10px;}
+
+	p{margin-bottom: 20px;}
+
+	/* annoucement-block */
+	.annoucement-block .container{padding-right: 10px;}
+
+	/* banner */
+	.banner-block .banner{height: 360px;}
+	.banner-block .banner .container .caption{max-width: 382px;}
+	.banner-block .banner .container .caption h1{font-size: 26px; line-height: 1.3;}
+	.banner-block .banner .container .caption .sub-title{font-size: 14px; line-height: 1.5; margin-bottom: 15px;}
+	.banner-block .banner .container .caption .start-now{min-width: 170px; height: 42px; line-height: 42px;}
+	.banner-block .banner .container .img-block{max-width: 360px; margin-left: 30px;}
+	.banner-block .banner .container .shape{max-width: 630px; bottom: -25px; right: -260px;}
+
+	/* brands-block */
+	.brands-block{padding: 30px 0;}
+	.brands-block .title{margin-bottom: 25px;}
+	.brands-block .brand-logoes figure{max-width: 15%;}
+
+	/* explore-category */
+	.explore-category{padding: 35px 0 35px;}
+	.explore-category .block-heading{margin-bottom: 15px;}
+	.explore-category .block-heading h2{font-size: 20px;}
+	.explore-category .block-heading a{font-size: 16px;}
+	.explore-category .block-heading a i{font-size: 14px;}
+	.explore-category .category .title{font-size: 18px;}
+	.explore-category .category figure{max-width: 50px; margin-bottom: 40px;}
+
+	/* certification-block */
+	.certification-block{padding: 40px 0 50px;}
+	.certification-block .block-heading{margin-bottom: 20px;}
+	.certification-block .block-heading h3{font-size: 25px;}
+	.certification-block .block-heading h3 span{font-size: 18px; margin: 0 0 3px;}
+	.certification-block .content{height: 400px;}
+	.certification-block .steps-group .step{padding: 15px; margin-left: 1px;}
+	.certification-block .steps-group .step-head{margin-bottom: 5px;}
+	.certification-block .steps-group .step-head figure{max-width: 40px;}
+	.certification-block .steps-group .step-head span{font-size: 27px;}
+	.certification-block .steps-group .step .step-title{font-size: 14px; margin-bottom: 5px;}
+	.certification-block .steps-group .step p{font-size: 13px; line-height: 1.6;}
+
+	/* expert-support-group */
+	.expert-support-group{padding: 40px 0;}
+	.expert-support-group .block .caption h4{font-size: 24px; margin-bottom: 10px;}
+	.expert-support-group .block .caption span{font-size: 15px; margin-bottom: 5px;}
+	.expert-support-group .block .caption p{font-size: 14px;}
+	.expert-support-group .block .img-block{max-width: 440px;}
+
+	/* compuny-block */
+	.compuny-block{padding: 30px 0 10px;}
+	.compuny-block .block-heading .title{font-size: 25px; max-width: 350px;}
+	.compuny-block .block-heading p{font-size: 14px;}
+	.compuny-block .compuny-logoes{justify-content: center; flex-wrap: wrap; width: 100%;}
+	.compuny-block .compuny-logoes figure{max-width: 16.6%; margin: 0; margin-bottom: 30px;}
+	.compuny-block .compuny-logoes figure:nth-child(4n+1){margin-left: 0;}
+
+	/* view-all-course-section */
+	.view-all-course-section{margin-bottom: 50px;}
+	.view-all-course-section .container{height: 400px; padding: 0 25px;}
+	.view-all-course-section .caption{max-width: 390px;}
+	.view-all-course-section .caption .title{font-size: 24px;}
+	.view-all-course-section .caption .btn-start-now{min-width: 200px; height: 40px; line-height: 40px;}
+	.view-all-course-section .img-block{margin: 0 0 0 10px;}
+
+	/* testimonial-block */
+	.testimonial-block{padding: 40px 0;}
+	.testimonial-block .heading{margin-bottom: 20px;}
+	.testimonial-block .heading h5{font-size: 22px;}
+	.testimonial-block .heading figure{max-width: 40px;}
+	.testimonial-block .slider-blocks .block{padding: 25px;}
+	.testimonial-block .slider-blocks .block p{line-height: 1.7;}
+	.testimonial-block .slider-blocks .block h5{font-size: 16px; margin-bottom: 10px;}
+	.testimonial-block .slider-blocks .block .user-block figure{width: 50px;}
+	.testimonial-block .slider-blocks .block .user-block .details{margin-left: 15px;}
+	.testimonial-block .slider-blocks .block .user-block .details span{margin-bottom: 1px;}
+	.testimonial-block .slider-blocks .block .user-block .details spam{font-size: 13px;}
+
+	/* instructor-block */
+	.instructor-block{padding: 50px 0 0;}
+	.instructor-block .block-group .block{max-width: 570px; max-height: 240px; padding-right: 15px;}
+	.instructor-block .block-group .block figure{max-width: 180px; margin-right: 0px;}
+	.instructor-block .block-group .block.business{margin-bottom: 0;}
+	.instructor-block .block-group .block .content .title{font-size: 19px; margin-bottom: 5px;}
+	.instructor-block .block-group .block .content p{font-size: 13px; margin-bottom: 10px; line-height: 1.6;}
+	.instructor-block .block-group .block .btn{max-width: 200px; height: 40px; line-height: 40px;}
+
+	/* application-block */
+	.application-block{padding: 30px 0 90px;}
+	.application-block .container{flex-wrap: wrap;}
+	.application-block .title{font-size: 28px; margin-bottom: 10px;}
+	.application-block .title span{font-size: 21px;}
+	.application-block .apps-links a{max-width: 165px;}
+
+	/* upgradation-block */
+	.upgradation-block .caption{font-size: 22px;}
+	.upgradation-block .caption strong{display: block;}
+	.upgradation-block .container{padding: 15px 30px; justify-content: space-between;}
+	.upgradation-block .btn{min-width: 180px; height: 45px; line-height: 45px; font-size: 15px; margin: 0;}
+
+	/* footer */
+	footer{padding: 35px 0 20px;}
+	footer .footer-top{flex-direction: column; margin-bottom: 30px;}
+	footer .footer-top .footer-left{min-width: 100%; display: flex; align-items: center; order: 2;}
+	footer .footer-top .footer-left .logo{margin: 0 15px 0 0;}
+	footer .footer-top .footer-left p{margin: 3px 0 0 0;}
+	footer .footer-top .footer-left .social-links{margin: 0 0 0 15px;}
+	footer .footer-top .footer-left .social-links .link{font-size: 15px; margin: 0 15px 0 0;}
+	footer .footer-top .footer-right{margin: 0 0 25px 0;}
+}
+
+/* Custome css 940px to 1023px */
+@media (min-width:940px) and (max-width:1023px){
+	/* instructor-block */
+	.instructor-block .block-group{align-items: unset; flex-direction: row;}
+	.instructor-block .block-group .block{margin: 0 0 0 10px;}
+	.instructor-block .block-group .block:first-child{margin-left: 0;}
+	.instructor-block .block-group .block .btn{min-width: 200px; font-size: 13px; height: 40px; line-height: 40px;}
+	
+	/* application-block */
+	.application-block .title{margin-bottom: 0;}
+	.unlock-courses-block .block-group .block ul {
+		columns: 2; 
+		 -webkit-columns: 2;
+		-moz-columns: 2;
+		margin: 0; 
+	  }
+}

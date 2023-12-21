@@ -1,0 +1,239 @@
+/* poppins fonts */
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-light.woff2') format('woff2'),
+         url('poppins-light.woff') format('woff'),
+         url('Poppins-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-regular.woff2') format('woff2'),
+         url('poppins-regular.woff') format('woff'),
+         url('Poppins-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-regular-italic.woff2') format('woff2'),
+         url('poppins-regular-italic.woff') format('woff'),
+         url('Poppins-Regular-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-medium.woff2') format('woff2'),
+         url('poppins-medium.woff') format('woff'),
+         url('Poppins-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-mediumitalic.woff2') format('woff2'),
+         url('poppins-mediumitalic.woff') format('woff'),
+         url('Poppins-MediumItalic.ttf') format('ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-semibold.woff2') format('woff2'),
+         url('poppins-semibold.woff') format('woff'),
+         url('Poppins-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-semibolditalic.woff2') format('woff2'),
+         url('poppins-semibolditalic.woff') format('woff'),
+         url('Poppins-SemiBoldItalic.ttf') format('ttf');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('poppins-bold.woff2') format('woff2'),
+         url('poppins-bold.woff') format('woff'),
+         url('Poppins-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Roboto */
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-light.woff2') format('woff2'),
+         url('roboto-light.woff') format('woff'),
+         url('Roboto-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-regular.woff2') format('woff2'),
+         url('roboto-regular.woff') format('woff'),
+         url('Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-medium.woff2') format('woff2'),
+         url('roboto-medium.woff') format('woff'),
+         url('Roboto-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('roboto-bold.woff2') format('woff2'),
+         url('roboto-bold.woff') format('woff'),
+         url('Roboto-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* fancy signature */
+@font-face {
+    font-family: 'fency-signature';
+    src: url('FancySignature.woff2') format('woff2'),
+        url('FancySignature.woff') format('woff'),
+        url('Fancy Signature.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* pretty pen */
+@font-face {
+    font-family: 'pretty-pen';
+    src: url('Pretty-Pen-Regular.woff2') format('woff2'),
+        url('Pretty-Pen-Regular.woff') format('woff'),
+        url('Pretty-Pen-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* sweetly broken */
+@font-face {
+    font-family: 'sweetly-broken';
+    src: url('SweetlyBroken-SemiBold.woff2') format('woff2'),
+        url('SweetlyBroken-SemiBold.woff') format('woff'),
+        url('sweetly-broken-semibold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* poetsen regular */
+@font-face {
+    font-family: 'poetsen_oneregular';
+    src: url('poetsenone-regular-webfont.woff2') format('woff2'),
+         url('poetsenone-regular-webfont.woff') format('woff'),
+         url('PoetsenOne-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* impact */
+@font-face {
+    font-family: 'impact-regular';
+    src: url('impact.woff2') format('woff2'),
+         url('impact.woff') format('woff'),
+         url('impact.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* pacifico */
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('Pacifico-Regular.woff2') format('woff2'),
+         url('Pacifico-Regular.woff') format('woff'),
+         url('Pacifico-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* anton */
+@font-face {
+    font-family: 'antonregular';
+    src: url('anton-regular-webfont.woff2') format('woff2'),
+         url('anton-regular-webfont.woff') format('woff'),
+         url('Anton-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* imperial_scriptregular */
+@font-face {
+    font-family: 'imperial_scriptregular';
+    src: url('imperialscript-regular-webfont.woff2') format('woff2'),
+         url('imperialscript-regular-webfont.woff') format('woff'),
+         url('ImperialScript-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* sansita_swashedlight */
+@font-face {
+    font-family: 'sansita_swashedlight';
+    src: url('sansitaswashed-variablefont_wght-webfont.woff2') format('woff2'),
+         url('sansitaswashed-variablefont_wght-webfont.woff') format('woff'),
+         url('SansitaSwashed-VariableFont_wght.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* elsieblack */
+@font-face {
+    font-family: 'elsieblack';
+    src: url('elsie-black-webfont.woff2') format('woff2'),
+         url('elsie-black-webfont.woff') format('woff'),
+         url('Elsie-Black.ttf') format('ttf'),
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'elsieregular';
+    src: url('elsie-regular-webfont.woff2') format('woff2'),
+         url('elsie-regular-webfont.woff') format('woff'),
+         url('Elsie-Regular.ttf') format('ttf'),
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

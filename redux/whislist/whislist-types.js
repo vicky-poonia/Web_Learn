@@ -1,0 +1,3 @@
+export const ADD_WHISLIST = "ADD_WHISLIST";
+export const CLEAR_WHISLIST = "CLEAR_WHISLIST";
+export const GET_WISHLIST = "GET_WISHLIST"

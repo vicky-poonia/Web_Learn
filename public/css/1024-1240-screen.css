@@ -1,0 +1,1738 @@
+/* 4. desktop responsive css 1024px to 1239px
+------------------------------------------------------------------------------*/
+@media (min-width:1024px) and (max-width:1239px) {
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 10px;
+	}
+
+	p {
+		margin-bottom: 25px;
+	}
+
+	/*footer*/
+	footer .footer-top .block ul li a {
+		max-width: 270px;
+	}
+
+	/*exclusive-banner*/
+	.exclusive-banner .left-block .annual-text span {
+		font-size: 14px;
+	}
+
+	.exclusive-banner .left-block .annual-text {
+		font-size: 30px;
+	}
+
+	.exclusive-banner .left-block {
+		max-width: 210px;
+		margin: 0 50px 0 0;
+	}
+
+	.exclusive-banner .left-block:after {
+		right: -80px;
+		width: 85px;
+		z-index: -1;
+	}
+
+	.exclusive-banner .right-block .plan-group .line {
+		margin: 0 20px;
+	}
+
+	.exclusive-banner .right-block .coupon .group {
+		justify-content: center;
+	}
+
+	.exclusive-banner .right-block .coupon {
+		margin: 0;
+	}
+
+	.exclusive-banner .right-block .coupon .btn-now img {
+		display: none;
+	}
+
+	.exclusive-banner .btn-close {
+		top: -11px;
+		left: 96vw;
+	}
+
+	.exclusive-banner .right-block .coupon-group #timer {
+		margin: 0 5px 0 0;
+	}
+
+	/*one-time-offer-banner*/
+	.one-time-offer-banner .left-block .annual-text span {
+		font-size: 13px;
+	}
+
+	.one-time-offer-banner .left-block .annual-text {
+		font-size: 27px;
+	}
+
+	.one-time-offer-banner .left-block .annual-text label {
+		font-size: 16px;
+	}
+
+	.one-time-offer-banner .left-block {
+		max-width: 195px;
+		margin: 0 40px 0 0;
+	}
+
+	.one-time-offer-banner .left-block:after {
+		right: -48px;
+		width: 48px;
+		z-index: -1;
+	}
+
+	.one-time-offer-banner .right-block .plan-group {
+		margin: 0 20px;
+	}
+
+	.one-time-offer-banner .right-block .plan-group .box p {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+
+	.one-time-offer-banner .right-block .plan-group .box .price-block .price {
+		font-size: 22px;
+	}
+
+	.one-time-offer-banner .right-block .plan-group .line {
+		margin: 0 20px;
+	}
+
+	.one-time-offer-banner .right-block .coupon .group {
+		justify-content: center;
+	}
+
+	.one-time-offer-banner .right-block .coupon {
+		margin: 0;
+	}
+
+	.one-time-offer-banner .right-block .coupon .btn-now img {
+		display: none;
+	}
+
+	.one-time-offer-banner .right-block .coupon-group #timer {
+		margin: 0 10px 0 0;
+	}
+
+	.one-time-offer-banner .right-block .coupon-group #timer .count {
+		width: 34px;
+		font-size: 28px;
+	}
+
+	.one-time-offer-banner .right-block .coupon-group #timer {
+		padding: 15px 10px;
+	}
+
+	/*affordable-monthly-plans*/
+	.affordable-monthly-plans .caption label {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.affordable-monthly-plans .caption h6 {
+		font-size: 21px;
+		line-height: 24px;
+	}
+
+	.affordable-monthly-plans .plans-group .box {
+		padding: 0 0 0 45px;
+	}
+
+	/* bottom-black-friday-banner */
+	.bottom-black-friday .black-text {
+		max-width: 22%;
+		font-size: 38px;
+		justify-content: center;
+	}
+
+	.bottom-black-friday .black-text:after {
+		display: none;
+	}
+
+	.bottom-black-friday .black-text span {
+		font-size: 23px;
+		left: 50%;
+		transform: translate(-72%, 0);
+	}
+
+	.bottom-black-friday .right-block {
+		margin: 0 0 0 10px;
+	}
+
+	.bottom-black-friday .right-block .flat-box-group .line {
+		display: none;
+	}
+
+	.bottom-black-friday .right-block .flat-box-group .box-group .txt-box {
+		line-height: 24px;
+		margin: 0 10px;
+	}
+
+	.bottom-black-friday .right-block .flat-box-group .box-group .txt-box label {
+		font-size: 20px;
+	}
+
+	.bottom-black-friday .right-block .flat-box-group .box-group .txt-box span {
+		font-size: 14px;
+	}
+
+	.bottom-black-friday .right-block .flat-box-group .box-group .code-box .code {
+		font-size: 14px;
+	}
+
+	.bottom-black-friday .right-block .main-timer {
+		padding: 3px 5px;
+	}
+
+	.bottom-black-friday .right-block .main-timer .count {
+		width: 35px;
+		margin: 0 10px 0 0;
+	}
+
+	.bottom-black-friday .right-block .main-timer .colon {
+		font-size: 27px;
+		line-height: 30px;
+	}
+
+	/* bottom-valentine-banner */
+	.bottom-valentine .left-block {
+		max-width: 22%;
+		font-size: 38px;
+		justify-content: center;
+	}
+
+	.bottom-valentine .right-block {
+		margin: 0 0 0 10px;
+	}
+
+	.bottom-valentine .right-block .flat-box-group .line {
+		display: none;
+	}
+
+	.bottom-valentine .right-block .flat-box-group .box-group .txt-box {
+		line-height: 24px;
+		margin: 0 10px;
+	}
+
+	.bottom-valentine .right-block .flat-box-group .box-group .txt-box label {
+		font-size: 20px;
+	}
+
+	.bottom-valentine .right-block .flat-box-group .box-group .txt-box span {
+		font-size: 14px;
+	}
+
+	.bottom-valentine .right-block .flat-box-group .box-group .code-box .code {
+		font-size: 14px;
+	}
+
+	.bottom-valentine .right-block .main-timer {
+		padding: 3px 5px;
+	}
+
+	.bottom-valentine .right-block .main-timer .count {
+		width: 35px;
+		margin: 0 10px 0 0;
+	}
+
+	.bottom-valentine .right-block .main-timer .colon {
+		font-size: 27px;
+		line-height: 30px;
+	}
+
+
+	/* bottom-up-skilling */
+	.bottom-up-skilling .up-skill-gorup {
+		max-width: 345px;
+		padding: 0 20px 0 0;
+		margin: 0 10px 0 0;
+	}
+
+	.bottom-up-skilling .up-skill-gorup label {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.bottom-up-skilling .up-skill-gorup strong {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.bottom-up-skilling .right-side {
+		width: 100%;
+	}
+
+	.bottom-up-skilling .right-side .sub-group {
+		padding: 0 20px 0 0;
+		margin: 0 20px 0 0;
+	}
+
+	.bottom-up-skilling .right-side .sub-group .box {
+		padding: 0 20px 0 0;
+	}
+
+	.bottom-up-skilling .right-side .sub-group .box label {
+		font-size: 14px;
+		line-height: 18px;
+		white-space: nowrap;
+	}
+
+	.bottom-up-skilling .right-side .sub-group .box strong {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.bottom-up-skilling .right-side .sub-group .box .price-box .price strong {
+		font-size: 19px;
+		line-height: 22px;
+		white-space: nowrap;
+	}
+
+	.bottom-up-skilling .right-side .btn-coupon .coupon {
+		margin: 0 20px 0 0;
+	}
+
+	.bottom-up-skilling .right-side .btn-coupon .coupon .code {
+		font-size: 19px;
+	}
+
+	/* bottom-big-holiday-banner */
+	.bottom-big-holiday .left-block {
+		max-width: 62%;
+	}
+
+	.bottom-big-holiday .left-block .christmas-tree {
+		max-width: 50px;
+	}
+
+	.bottom-big-holiday .left-block .flat-box-group .box-group.first {
+		padding: 0 15px 0 0;
+		margin: 0 15px 0 0 !important;
+	}
+
+	.bottom-big-holiday .left-block .flat-box-group .box-group {
+		margin: 0 22px 0 0;
+	}
+
+	.bottom-big-holiday .left-block .flat-box-group .box-group .txt-box {
+		line-height: 22px;
+	}
+
+	.bottom-big-holiday .left-block .flat-box-group .box-group .txt-box label {
+		font-size: 21px;
+	}
+
+	.bottom-big-holiday .left-block .flat-box-group .box-group .txt-box span {
+		font-size: 14px;
+	}
+
+	.bottom-big-holiday .right-block {
+		max-width: 39%;
+		padding: 0 0 0 10px;
+	}
+
+	.bottom-big-holiday .right-block .timer-txt-group .title {
+		font-size: 35px;
+	}
+
+	.bottom-big-holiday .right-block .timer-txt-group .title span {
+		display: block;
+	}
+
+	.bottom-big-holiday .right-block .timer-txt-group .main-timer {
+		padding: 3px 5px;
+		margin: 0 5px 0 0;
+	}
+
+	.bottom-big-holiday .right-block .timer-txt-group .main-timer .count {
+		width: 35px;
+	}
+
+	.bottom-big-holiday .right-block .timer-txt-group .main-timer .colon {
+		font-size: 25px;
+		line-height: 29px;
+	}
+
+	/* bottom-big-lifetime */
+	.bottom-big-lifetime .left-block {
+		max-width: 57%;
+	}
+
+	.bottom-big-lifetime .left-block h5 {
+		font-size: 38px;
+		margin: -6px 30px 0 0;
+	}
+
+	.bottom-big-lifetime .left-block .intro-txt-group .box label {
+		font-size: 19px;
+	}
+
+	.bottom-big-lifetime .left-block .big-life {
+		max-width: 106px;
+		right: -51px;
+		top: 20px;
+	}
+
+	.bottom-big-lifetime .right-block {
+		max-width: 43%;
+		padding: 0 0 0 48px;
+	}
+
+	.bottom-big-lifetime .right-block .coupon-group {
+		margin: 0 20px 0 0;
+	}
+
+	.bottom-big-lifetime .right-block .coupon-group .txt {
+		flex-wrap: wrap;
+		margin: 0 0 5px 0;
+	}
+
+	.bottom-big-lifetime .right-block .coupon-group .txt label {
+		font-size: 15px;
+	}
+
+	.bottom-big-lifetime .right-block .coupon-group .txt span {
+		font-size: 18px;
+	}
+
+	.bottom-big-lifetime .right-block .main-timer {
+		padding: 3px 5px;
+		margin: 0 5px 0 0;
+	}
+
+	.bottom-big-lifetime .right-block .main-timer .count {
+		width: 35px;
+	}
+
+	.bottom-big-lifetime .right-block .main-timer .colon {
+		font-size: 25px;
+		line-height: 29px;
+	}
+
+	/* bottom-crazy-deal-banner */
+	.crazy-deal-banner {
+		height: 75px;
+	}
+
+	.crazy-deal-banner .crazy-txt {
+		max-width: 265px;
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.crazy-deal-banner .crazy-txt span {
+		font-size: 14px;
+	}
+
+	.crazy-deal-banner .right-block {
+		margin: 0 0 0 60px;
+	}
+
+	.crazy-deal-banner .right-block .coupon-txt-group {
+		line-height: 24px;
+	}
+
+	.crazy-deal-banner .right-block .coupon-txt-group label {
+		font-size: 14px;
+	}
+
+	.crazy-deal-banner .right-block .coupon-txt-group span {
+		font-size: 18px;
+	}
+
+	.crazy-deal-banner .right-block .price-block {
+		margin: 0 0 0 15px;
+	}
+
+	.crazy-deal-banner .right-block .price-block .txt {
+		white-space: nowrap;
+		font-size: 18px;
+	}
+
+	.crazy-deal-banner .right-block .price-block .price {
+		font-size: 28px;
+	}
+
+	.crazy-deal-banner .right-block .price-block .old-price {
+		font-size: 18px;
+	}
+
+	.crazy-deal-banner .right-block .countdow {
+		margin: 0 10px 0 15px;
+	}
+
+	.crazy-deal-banner .right-block .countdow .colon {
+		font-size: 28px;
+	}
+
+	/* bottom-friday-lifetime */
+	.bottom-friday-lifetime .black-text {
+		max-width: 22%;
+		font-size: 33px;
+	}
+
+	.bottom-friday-lifetime .black-text span {
+		left: 50%;
+		transform: translate(-72%, 0);
+	}
+
+	.bottom-friday-lifetime .black-text:after {
+		display: none;
+	}
+
+	.bottom-friday-lifetime .right-block {
+		max-width: 78%;
+		margin: 0 0 0 15px;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group {
+		margin: 0 20px 0 0;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group .box {
+		margin: 0 15px 0 0;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group .box label {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group .box span {
+		font-size: 22px;
+		line-height: 26px;
+		white-space: nowrap;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group .box .price-box {
+		white-space: nowrap;
+	}
+
+	.bottom-friday-lifetime .right-block .intro-txt-group .box .price-box .price {
+		font-size: 26px;
+	}
+
+	.bottom-friday-lifetime .right-block .coupon-group {
+		justify-content: center;
+		flex-wrap: wrap;
+		margin: 0 20px 0 0;
+	}
+
+	.bottom-friday-lifetime .right-block .coupon-group .txt span {
+		font-size: 18px;
+	}
+
+	/* black-friday-banner 2021-2022 */
+	.black-friday-banner {
+		height: 420px;
+	}
+
+	.black-friday-banner:before {
+		max-width: 275px;
+		height: 350px;
+	}
+
+	.black-friday-banner .title {
+		font-size: 130px;
+	}
+
+	.black-friday-banner .text-block {
+		max-width: 935px;
+	}
+
+	.black-friday-banner .text-block p {
+		font-size: 44px;
+		margin: 0 0 15px 0;
+	}
+
+	/* valentine-banner */
+	.valentine-banner {
+		height: 370px;
+		overflow: hidden;
+	}
+
+	.valentine-banner .left-sharp {
+		max-width: 17%;
+	}
+
+	.valentine-banner .right-sharp {
+		max-width: 17%;
+	}
+
+	.valentine-banner .text-block {
+		max-width: 775px;
+	}
+
+	.valentine-banner .text-block .valentine-txt {
+		max-width: 280px;
+		margin: 0 10px;
+	}
+
+	.valentine-banner .text-block .code-caption p {
+		font-size: 19px;
+		line-height: 32px;
+		margin: 0 0 5px 0;
+		white-space: nowrap;
+	}
+
+	.valentine-banner .text-block .code-caption p strong {
+		font-size: 28px;
+	}
+
+	.valentine-banner .text-block .code-caption small {
+		font-size: 16px;
+		line-height: 24px;
+		white-space: nowrap;
+	}
+
+	.valentine-banner .text-block .code-caption .btn {
+		width: 155px;
+	}
+
+	/* bottom-women-day */
+	.bottom-women-day .left-block {
+		max-width: 22%;
+		font-size: 38px;
+		justify-content: center;
+	}
+
+	.bottom-women-day .right-block {
+		margin: 0 0 0 10px;
+	}
+
+	.bottom-women-day .right-block .flat-box-group .line {
+		display: none;
+	}
+
+	.bottom-women-day .right-block .flat-box-group .box-group .txt-box {
+		line-height: 24px;
+		margin: 0 10px;
+	}
+
+	.bottom-women-day .right-block .flat-box-group .box-group .txt-box label {
+		font-size: 20px;
+	}
+
+	.bottom-women-day .right-block .flat-box-group .box-group .txt-box span {
+		font-size: 14px;
+	}
+
+	.bottom-women-day .right-block .flat-box-group .box-group .code-box .code {
+		font-size: 14px;
+	}
+
+	.bottom-women-day .right-block .main-timer {
+		padding: 3px 5px;
+	}
+
+	.bottom-women-day .right-block .main-timer .count {
+		width: 35px;
+		margin: 0 10px 0 0;
+	}
+
+	.bottom-women-day .right-block .main-timer .colon {
+		font-size: 27px;
+		line-height: 30px;
+	}
+
+	/* women-day-banner 2023 */
+	.women-day-banner {
+		height: 430px;
+	}
+
+	.women-day-banner .img-caption-block {
+		max-width: 1045px;
+	}
+
+	.women-day-banner .left-block {
+		max-width: 330px;
+	}
+
+	.women-day-banner .right-block {
+		padding: 0 0 20px 0;
+	}
+
+	.women-day-banner .right-block .label {
+		font-size: 18px;
+		padding: 9px 20px;
+	}
+
+	.women-day-banner .code-box-group .code-box {
+		padding: 35px 20px 25px 20px;
+	}
+
+	.women-day-banner .code-box-group .code-box .btn {
+		height: 42px;
+		line-height: 42px;
+		font-size: 15px;
+	}
+
+	/* bottom-super-sale */
+	.super-sale.bottom-women-day .left-block h2{font-size: 20px;}
+	.super-sale.bottom-women-day .left-block{max-width: 27%;}
+	.super-sale.bottom-women-day .left-block h2 span{font-size: 20px;}
+
+	/* many-day-sale-banner */
+	.many-day-sale-banner{height: 420px;}
+	.many-day-sale-banner .left-block{max-width: 360px; padding: 30px 45px 15px 15px;}
+	.many-day-sale-banner .left-block .sharp-top{max-width: 265px; margin: -85px 0 0 0;}
+	.many-day-sale-banner .left-block span{font-size: 19px; bottom: 24px;}
+	.many-day-sale-banner .left-block .caption h5{font-size: 20px;}
+	.many-day-sale-banner .left-block .caption p{font-size: 18px; line-height: 26px;}
+	.many-day-sale-banner .girl-block{max-width: 315px;}
+	.many-day-sale-banner .right-block{max-width: 385px;}
+	.many-day-sale-banner .right-block .code-box-group .code-box p{font-size: 14px; line-height: 26px;}
+	.many-day-sale-banner .right-block .code-box-group .code-box p strong{font-size: 23px;}
+	.many-day-sale-banner .right-block .code-box-group .code-box small{font-size: 14px; margin-bottom: 20px;}
+	.many-day-sale-banner .right-block .code-box-group .code-box .btn-enroll {max-width: 160px; width: 100%; height: 43px; line-height: 43px; font-size: 15px; border-radius: 8px;}
+
+
+
+	/* christmas-banner 2021-2022 */
+	.christmas-banner {
+		height: 420px;
+	}
+
+	.christmas-banner .title {
+		font-size: 84px;
+		padding: 9px 0 20px 0;
+	}
+
+	.christmas-banner .text-block {
+		max-width: 970px;
+	}
+
+	.christmas-banner .text-block p {
+		font-size: 50px;
+		line-height: 50px;
+		margin: 0 0 10px 0;
+	}
+
+	/*prices-going-banner*/
+	.prices-going-banner .banner-content .annual-text {
+		max-width: 230px;
+		font-size: 22px;
+	}
+
+	.prices-going-banner .banner-content .annual-text:after {
+		width: 95px;
+		right: -55px;
+	}
+
+	.prices-going-banner .banner-content .right-block {
+		justify-content: center;
+	}
+
+	.prices-going-banner .banner-content .right-block .countdown-gorup {
+		margin: 0 0 0 15px;
+	}
+
+	.prices-going-banner .banner-content .right-block .current-price-group .box .price {
+		font-size: 21px;
+	}
+
+	.prices-going-banner .banner-content .right-block .current-price-group .box {
+		font-size: 17px;
+		margin: 0 9px;
+	}
+
+	.prices-going-banner .banner-content .right-block .current-price-group .box label {
+		font-size: 14px;
+	}
+
+	.prices-going-banner .banner-content .right-block .countdown-gorup .countdow {
+		padding: 8px 14px;
+	}
+
+	.prices-going-banner .banner-content .right-block .countdown-gorup .countdow .count {
+		width: 30px;
+		margin: 0 10px 0 0;
+	}
+
+	.prices-going-banner .banner-content .right-block .countdown-gorup .countdow .colon {
+		font-size: 22px;
+		line-height: 28px;
+	}
+
+	.prices-going-banner .banner-content .right-block .countdown-gorup .btn-subscribe-now {
+		min-width: 160px;
+		padding: 0 40px 0 20px;
+		margin-left: 15px;
+		font-size: 13px;
+	}
+
+	/* --------- home-page ---------- */
+	/* ------------------------------ */
+	/* banner */
+	.banner-block .banner {
+		height: 400px;
+	}
+
+	.banner-block .banner .container .caption {
+		max-width: 440px;
+	}
+
+	.banner-block .banner .container .caption h1 {
+		font-size: 34px;
+		line-height: 1.3;
+	}
+
+	.banner-block .banner .container .img-block {
+		max-width: 390px;
+		margin: 0 80px 0 50px;
+	}
+
+	.banner-block .banner .container .shape {
+		max-width: 700px;
+		bottom: -90px;
+		right: -190px;
+	}
+
+	/* brands-block */
+	.brands-block {
+		padding: 40px 0;
+	}
+
+	.brands-block .brand-logoes {
+		padding: 0 0 40px 0;
+	}
+
+	.brands-block .more-logo.brand-logo.space {
+		padding: 0 0 40px 0;
+	}
+
+	/* explore-category */
+	.explore-category {
+		padding: 40px 0 50px;
+	}
+
+	.explore-category .block-heading h2 {
+		font-size: 26px;
+	}
+
+	.explore-category .category .title {
+		font-size: 19px;
+	}
+
+	.explore-category .category figure {
+		max-width: 55px;
+		margin-bottom: 30px;
+	}
+
+	/* certification-block */
+	.certification-block {
+		padding: 35px 0 60px;
+	}
+
+	.certification-block .block-heading {
+		margin-bottom: 25px;
+	}
+
+	.certification-block .block-heading h3 {
+		font-size: 30px;
+	}
+
+	.certification-block .block-heading h3 span {
+		font-size: 22px;
+	}
+
+	.certification-block .content {
+		height: 550px;
+	}
+
+	.certification-block .steps-group .step-head figure {
+		max-width: 45px;
+	}
+
+	.certification-block .steps-group .step .step-title {
+		font-size: 19px;
+	}
+
+	/* expert-support-group */
+	.expert-support-group {
+		padding: 50px 0;
+	}
+
+	.expert-support-group .block .caption h4 {
+		font-size: 30px;
+	}
+
+	/* compuny-block */
+	.compuny-block {
+		padding: 50px 0 50px;
+	}
+
+	.compuny-block .block-heading .title {
+		font-size: 30px;
+		max-width: 450px;
+	}
+
+	.compuny-block .block-heading p {
+		line-height: 28px;
+	}
+
+	/* view-all-course-section */
+	.view-all-course-section {
+		margin-bottom: 40px;
+	}
+
+	.view-all-course-section .container {
+		height: 450px;
+		padding-left: 40px;
+	}
+
+	.view-all-course-section .caption {
+		max-width: 430px;
+	}
+
+	.view-all-course-section .caption .title {
+		font-size: 30px;
+	}
+
+	.view-all-course-section .img-block {
+		margin: 0 0 0 10px;
+	}
+
+	/* testimonial-block */
+	.testimonial-block {
+		padding: 50px 0;
+	}
+
+	.testimonial-block .heading h5 {
+		font-size: 26px;
+	}
+
+	.testimonial-block .slider-blocks .block {
+		padding: 25px 30px;
+	}
+
+	.testimonial-block .slider-blocks .block h6 {
+		font-size: 19px;
+	}
+
+	/* instructor-block */
+	.instructor-block {
+		padding-top: 70px;
+	}
+
+	.instructor-block .block-group .block {
+		max-height: 260px;
+	}
+
+	.instructor-block .block-group .block figure {
+		max-width: 200px;
+		margin-right: 20px;
+	}
+
+	.instructor-block .block-group .block .content .title {
+		font-size: 20px;
+		margin-bottom: 10px;
+		white-space: nowrap;
+	}
+
+	/* application-block */
+	.application-block .title {
+		font-size: 33px;
+	}
+
+	.application-block .title span {
+		font-size: 23px;
+	}
+
+	.application-block .apps-links a {
+		max-width: 180px;
+	}
+
+	/* upgradation-block */
+	.upgradation-block .caption {
+		font-size: 25px;
+	}
+
+	/* --------- my-wishlist-page ---------- */
+	/* ---------------------------------- */
+	.my-wishlist-page .two-column .right-column {
+		/* max-width: 235px; */
+		margin: 0 0 0 15px;
+	}
+	.my-wishlist-page .two-column .right-column .block-group img{
+		border-radius: 8px;
+	}
+	.my-wishlist-page .two-column .right-column .block-group .premium-plan {
+		padding: 15px 0;
+	}
+
+	.my-wishlist-page .two-column .right-column .block-group .block .block-title {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+
+	.my-wishlist-page .two-column .right-column .block-group .block .price-block {
+		max-width: 110px;
+	}
+
+	.my-wishlist-page .two-column .right-column .block-group .block .price-block .old-price {
+		font-size: 24px;
+	}
+
+	.my-wishlist-page .two-column .right-column .block-group .block .price-block .price {
+		font-size: 28px;
+	}
+
+	.my-wishlist-page .two-column .right-column .block-group .block .btn {
+		max-width: 200px;
+	}
+
+	.my-wishlist-page .filter-bar .filters-group .item .filter-name {
+		padding: 15px 20px
+	}
+
+	.my-wishlist-page .filter-bar .filters-group .item .filter-name span {
+		font-size: 15px;
+	}
+
+	.my-wishlist-page .course-listing .heading .title {
+		font-size: 18px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .couser-img {
+		max-width: 230px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .couser-img .icon-whishlist {
+		max-width: 14px;
+		right: 13px;
+		top: 13px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .item-content {
+		padding: 8px 10px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .course-details .title {
+		font-size: 16px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .course-details .course-highlights {
+		grid-gap: 12px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .price-review-block {
+		max-width: 110px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .price-review-block .price-block .old-price {
+		font-size: 13px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .price-review-block .price-block .price {
+		font-size: 19px;
+	}
+
+	.my-wishlist-page .course-listing .list-item .price-review-block .btn-add-cart {
+		padding: 0 15px;
+	}
+
+	/* --------- category-page ---------- */
+	/* ---------------------------------- */
+	.modal-preview-course .course-details {
+		max-width: 380px;
+	}
+
+	.modal-preview-course .course-details .head-section {
+		padding-right: 20px
+	}
+
+	.modal-preview-course .course-content {
+		padding-right: 20px
+	}
+
+	.modal-preview-course .course-details .btn-course-details {
+		padding-right: 20px;
+	}
+
+	.category-banner img{
+		height: 150px;
+	}
+
+	.category-banner .left-part .breadcrumbs {
+		margin-bottom: 10px;
+	}
+
+	.category-banner .left-part .small-banner-title {
+		font-size: 22px;
+	}
+
+	.category-banner .right-part {
+		max-width: 300px;
+	}
+
+	.category-page .two-column .left-column {
+		max-width: 235px;
+		margin: 0 15px 0 0;
+	}
+
+	.category-page .filter-bar .filters-group .item .filter-name {
+		padding: 15px 20px
+	}
+
+	.category-page .filter-bar .filters-group .item .filter-name span {
+		font-size: 15px;
+	}
+
+	.category-page .course-listing .heading .title {
+		font-size: 18px;
+	}
+
+	.category-page .course-listing .list-item .couser-img {
+		max-width: 230px;
+	}
+
+	.category-page .course-listing .list-item .couser-img .icon-whishlist {
+		max-width: 14px;
+		right: 13px;
+		top: 13px;
+	}
+
+	.category-page .course-listing .list-item .item-content {
+		padding: 8px 10px;
+	}
+
+	.category-page .course-listing .list-item .course-details .title {
+		font-size: 16px;
+	}
+
+	.category-page .course-listing .list-item .course-details .course-highlights {
+		grid-gap: 12px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block {
+		max-width: 110px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block .price-block .old-price {
+		font-size: 13px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block .price-block .price {
+		font-size: 19px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block .btn-add-cart {
+		padding: 0 15px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block-updated {
+		/* max-width: 110px; */
+	}
+
+	.category-page .course-listing .list-item .price-review-block-updated .price-block .old-price {
+		font-size: 13px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block-updated .price-block .price {
+		font-size: 19px;
+	}
+
+	.category-page .course-listing .list-item .price-review-block-updated .btn-add-cart {
+		padding: 0 10px;
+	}
+
+	.pagination-block {
+		margin-bottom: 40px;
+	}
+
+	.pagination-block ul li {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+	}
+
+	.pagination-block ul li a {
+		font-size: 15px;
+	}
+
+	.pagination-block .arrow {
+		font-size: 14px;
+	}
+
+	/* --------- category-page01 ---------- */
+	/* ---------------------------------- */
+	.category-banner01 {
+		height: 180px;
+	}
+
+	.category-banner01 .left-part .breadcrumbs {
+		margin-bottom: 10px;
+	}
+
+	.category-banner01 .left-part h1 {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+
+	.category-banner01 .right-part {
+		max-width: 300px;
+	}
+
+	/* --------- cart-page ---------- */
+	/* ------------------------------ */
+	.cart-page .container-left {
+		max-width: calc(100% - 370px);
+	}
+
+	.cart-page .cart-items {
+		margin: 0 20px 0 0;
+	}
+
+	.cart-page .subscription-block {
+		margin-bottom: 40px;
+	}
+
+	.cart-page .subscription-block .container-left {
+		padding: 20px 20px 20px 30px;
+	}
+
+	.cart-page .subscription-block .left-block {
+		max-width: 66%;
+	}
+
+	.cart-page .subscription-block .left-block h2 {
+		font-size: 21px;
+	}
+
+	.cart-page .subscription-block .right-block .price-block .price {
+		font-size: 22px;
+	}
+
+	.cart-page .subscription-block .right-block .enroll-btn {
+		height: 40px;
+		line-height: 40px;
+		font-size: 15px;
+	}
+
+	.order-summary-block .saving-block .saving-amt {
+		font-size: 20px;
+	}
+
+	/* --------- contact-us page ---------- */
+    /* ------------------------------ */
+    .contactus-banner .block-group{grid-gap: 15px; grid-template-columns: repeat(2, 1fr);}
+    .contactus-banner .block-group .block .title{font-size: 20px;}
+
+	/* --------- checkout-page ---------- */
+	/* ------------------------------ */
+	.checkout-block .checkout-option {
+		margin: 0 20px 0 0;
+	}
+
+	/* --------- write a review-page ---------- */
+	/* --------------------------------------- */
+	.write-review-page .left-column {
+		padding: 25px 25px 50px 0
+	}
+
+	.write-review-page .left-column .course-reviews .course-img {
+		max-width: 150px;
+	}
+
+	.write-review-page .left-column .course-reviews .content .title {
+		font-size: 17px;
+	}
+
+	.write-review-page .left-column .course-reviews .content .rating-block {
+		margin-bottom: 15px;
+	}
+
+	.write-review-page .left-column .white-box {
+		padding: 25px 25px 30px
+	}
+
+	.write-review-page .right-column {
+		padding: 25px 0 0 25px;
+	}
+
+	.write-review-page .right-column .title figure {
+		max-width: 45px;
+	}
+
+	.write-review-page .right-column .title span {
+		font-size: 18px;
+	}
+
+	.write-review-page .right-column .reviewer-slider .block {
+		padding: 20px 25px;
+	}
+
+	/* ----- Dashboard Connection page ----- */
+	/* ------------------------------------- */
+	.user-connections .user-list-group {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	/* ----- subscription-banner ------ */
+	/* annoucement-block */
+	.footer-sticky-banner .subscription-banner .annual-text {
+		max-width: 210px;
+		font-size: 20px;
+		z-index: -1;
+	}
+
+	.footer-sticky-banner .subscription-banner .annual-text:after {
+		right: -35px;
+	}
+
+	.footer-sticky-banner .subscription-banner .annual-text span {
+		font-size: 16px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block ul {
+		margin: 0 0 0 20px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block ul li {
+		padding: 0 0 0 25px;
+		font-size: 16px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block ul li:after {
+		width: 20px;
+		height: 20px;
+		left: -5px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block ul li span {
+		font-size: 11px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block .price-block {
+		flex-wrap: wrap;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block .price-block .old-price {
+		font-size: 18px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block .price-block .price {
+		font-size: 26px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block .btn-subscribe-now {
+		min-width: 160px;
+		padding: 0 42px 0 17px;
+		margin-left: 5px;
+	}
+
+	.footer-sticky-banner .subscription-banner .right-block .btn-subscribe-now:before {
+		right: 20px;
+	}
+
+	/* ----- employees-page ----- */
+	/* ------------------------------------- */
+	.employees-page .banner-part .banner {
+		height: 490px;
+	}
+
+	.employees-page .banner-part .banner .container .caption {
+		margin: 110px 0 auto 40px;
+	}
+
+	.employees-page .banner-part .banner .container .caption h1 {
+		font-size: 36px;
+		line-height: 1.3;
+	}
+
+	.employees-page .banner-part .banner .container .img-block {
+		max-width: 340px;
+	}
+
+	.employees-page .banner-part .banner .container .shape {
+		max-width: 590px;
+		bottom: 94px;
+	}
+
+	.employees-page .users-block .box-group {
+		padding: 20px 10px;
+	}
+
+	.employees-page .users-block .box {
+		max-width: 350px;
+	}
+
+	.employees-page .users-block .box .title {
+		font-size: 22px;
+		margin-bottom: 5px;
+	}
+
+	.employees-page .users-block .box p {
+		margin-bottom: 10px;
+	}
+
+	.employees-page .users-block .box .btn-amazon {
+		font-size: 14px;
+		height: 42px;
+		line-height: 42px;
+	}
+
+	.unlimited-access {
+		padding: 160px 0 50px 0;
+		margin-top: -120px;
+	}
+
+	.unlimited-access .heading h5 {
+		font-size: 26px;
+	}
+
+	.unlimited-access .slider-blocks .block {
+		padding-top: 55px;
+	}
+
+	.unlimited-access .slider-blocks .inner-box {
+		max-width: 420px;
+		padding: 20px 15px 20px 140px;
+	}
+
+	.unlimited-access .slider-blocks .inner-box .title {
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+
+	.unlimited-access .slider-blocks .inner-box p {
+		margin-bottom: 10px;
+	}
+
+	.unlimited-access .slider-blocks .inner-box .user-block figure {
+		max-width: 170px;
+	}
+
+	.unlimited-access .slider-blocks .owl-nav button {
+		max-width: 34px;
+		height: 34px;
+	}
+
+	.unlimited-access .slider-blocks .owl-nav button:before {
+		font-size: 13px;
+	}
+
+	.unlimited-access .owl-theme .owl-nav {
+		max-width: 70px;
+	}
+
+	.the-courses-group {
+		padding: 40px 0 60px 0;
+	}
+
+	.the-courses-group .caption-box {
+		margin-bottom: 45px;
+	}
+
+	.the-courses-group .caption-box .title {
+		font-size: 32px;
+	}
+
+	.the-courses-group .caption-box p {
+		font-size: 15px;
+	}
+
+	.the-courses-group .block .caption span {
+		font-size: 90px;
+	}
+
+	.the-courses-group .block .caption {
+		padding: 55px 0 0 40px;
+	}
+
+	.the-courses-group .block .caption h4 {
+		font-size: 28px;
+		padding: 0 0 0 48px;
+	}
+
+	.the-courses-group .block .caption .video:after {
+		max-width: 36px;
+		height: 36px;
+	}
+
+	.the-courses-group .block .caption .practice:after {
+		max-width: 36px;
+		height: 42px;
+	}
+
+	.the-courses-group .block .caption .labs:after {
+		max-width: 36px;
+		height: 38px;
+	}
+
+	.the-courses-group .block .caption p {
+		font-size: 15px;
+		margin-bottom: 15px;
+		line-height: 1.7;
+	}
+
+	/* --------- scholarship-program-page ---------- */
+	/* ---------------------------------- */
+	.scholarship-page .banner-block .banner {
+		height: 360px;
+	}
+
+	.scholarship-page .banner-block .container-small .img-block {
+		max-width: 460px;
+	}
+
+	.scholarship-page .banner-block .container-small .caption h1 {
+		font-size: 26px;
+		margin-bottom: 12px;
+	}
+
+	.scholarship-page .banner-block .container-small .apply-now {
+		height: 40px;
+		line-height: 40px;
+	}
+
+	.scholarship-page .workforce-block .container-small {
+		padding: 40px 15px;
+	}
+
+	.scholarship-page .workforce-block .caption .title {
+		font-size: 26px;
+	}
+
+	.scholarship-page .workforce-block .caption .title span {
+		font-size: 22px
+	}
+
+	.scholarship-page .workforce-block .box-group .box {
+		padding: 18px 25px;
+	}
+
+	.scholarship-page .workforce-block .box-group .box figure {
+		max-width: 60px;
+	}
+
+	.scholarship-page .workforce-block .box-group .box h2 {
+		margin-bottom: 5px;
+	}
+
+	.scholarship-page .unique-block {
+		padding: 40px 0 0 0;
+	}
+
+	.scholarship-page .unique-block .img-text-block {
+		padding: 33px 0;
+	}
+
+	.scholarship-page .unique-block .title {
+		font-size: 26px;
+		margin: 0 0 15px 0;
+	}
+
+	.scholarship-page .unique-block .title span {
+		font-size: 22px
+	}
+
+	.scholarship-page .unique-block .img-text-block .caption-group .caption {
+		margin-bottom: 25px;
+	}
+
+	.scholarship-page .unique-block .img-text-block .img-block figure {
+		max-width: 560px;
+	}
+
+	.scholarship-page .offer-block {
+		padding: 40px 0;
+		margin-top: 0;
+	}
+
+	.scholarship-page .offer-block .block-group .caption h4 {
+		font-size: 23px;
+		margin-bottom: 22px;
+	}
+
+	.scholarship-page .how-apply {
+		padding: 40px 0;
+	}
+
+	.scholarship-page .how-apply .title h2 {
+		margin-bottom: 28px;
+	}
+
+	.scholarship-page .how-apply .all-box .box {
+		padding: 40px 25px 25px;
+	}
+
+	.scholarship-page .which-program {
+		padding: 40px 0;
+	}
+
+	.scholarship-page .tab_wrapper .tab_list {
+		padding: 3px 15px;
+	}
+
+	.scholarship-page .tab_wrapper .tab_list li {
+		font-size: 14px !important;
+	}
+
+	.scholarship-page .form-block {
+		padding: 40px 0;
+	}
+
+	.scholarship-page .form-block .caption-block .title {
+		margin-bottom: 30px;
+	}
+
+	/* ------- index-one-time-offer-page -------- */
+	/* ------------------------------------------ */
+	.offer-txt-block .offer-txt {
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.offer-txt-block .change-text {
+		font-size: 32px;
+		line-height: 38px;
+	}
+
+	.banner-block .banner .container .caption .head-txt {
+		font-size: 54px;
+		line-height: 80px;
+	}
+
+	.banner-block .banner .container .caption .sub-title.txt {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+
+	.offer-txt-block .code-block-group {
+		margin-bottom: 20px;
+	}
+
+	/* --------- ft-web-page ---------- */
+	/* ------------------------------ */
+	.ft-banner-block .left p {
+		padding: 0 40px 0 0;
+	}
+
+	.ft-banner-block .inside .inside-group .box span {
+		padding: 0;
+	}
+
+	/* --------- ft-library-page ---------- */
+	/* ------------------------------ */
+	.library-banner .content .left .title {
+		font-size: 28px;
+		line-height: 42px;
+	}
+
+	.library-banner .content .left .btn {
+		height: 40px;
+		line-height: 40px;
+		font-size: 14px;
+		padding: 0 40px;
+	}
+
+	.library-banner .click-jump-block {
+		max-width: 700px;
+	}
+
+	.library-banner .click-jump-block .img-group figure {
+		max-width: 75px;
+	}
+
+	.ft-library-page .courses-section {
+		padding: 50px 0;
+	}
+
+	.ft-library-page .courses-section .list-group .list-item {
+		padding: 5px 10px 5px 5px;
+	}
+
+	.ft-library-page .courses-section .list-group .list-item .course-img {
+		max-width: 180px;
+	}
+
+	.ft-library-page .courses-section .list-group .list-item .course-details .title {
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.ft-library-page .courses-section .list-group .list-item .course-details .rating-block .try-free a {
+		font-size: 12px;
+	}
+
+	.ft-library-page .courses-section .list-group .list-item .course-details .rating-block .try-free a .icon {
+		font-size: 12px;
+	}
+
+	/* --------- life-time-membership-page ---------- */
+	/* ------------------------------ */
+	.whiz-life-time .caption {
+		margin: 0 30px 0 0;
+	}
+
+	.whiz-life-time .caption h2 {
+		font-size: 32px;
+	}
+
+	.life-time-membership-page .enroll-today p {
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	/* --------- faq-page ---------- */
+	/* ------------------------------ */
+	.faq-page .faq-block .tab_wrapper .resp-tabs-list {
+		margin: 0 0 40px 0;
+	}
+
+	.faq-page .faq-block .tab_wrapper .resp-tabs-list li {
+		height: 110px;
+		width: 180px;
+	}
+
+	.faq-page .faq-block .tab_wrapper .resp-tabs-list li .icon {
+		font-size: 32px;
+	}
+
+	.faq-page .faq-block .tab_wrapper .resp-tabs-list li samp {
+		font-size: 15px;
+	}
+
+	/* --------- product-page ---------- */
+	/* ------------------------------ */
+	.buy-box.crazy-deal .crazy-content {
+		padding: 20px 19px;
+	}
+
+	.buy-box .btn-group .add-to-cart {
+		max-width: 80%;
+	}
+
+
+	/* --------- aws-consulting-page ---------- */
+	.banner-aws-consulting .container:after {
+		width: 0px;
+	}
+
+	/* --------- subscription page ---------- */
+    /* ------------------------------------- */
+    /* banner-pricing */
+    .subscription-page .banner-pricing{padding: 55px 0 480px 0;}
+    .subscription-page .banner-pricing .caption h1{font-size: 34px; margin-bottom: 5px;}
+    .subscription-page .choose-plans .block-group .plan-toggle{width: 280px;}
+
+    /* pricing-block */
+    .pricing-block table thead th.features-section .title{font-size: 29px;}
+    .pricing-block table thead th .sub-title{min-height: 63px;}
+    .pricing-block table thead th{padding: 25px 15px;}
+    .pricing-block table thead th .btn-Buy{height: 40px; line-height: 40px; font-size: 16px;}
+
+    .business-plan .btn-more{padding: 0 15px;}
+
+}

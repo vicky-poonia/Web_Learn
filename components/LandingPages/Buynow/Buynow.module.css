@@ -1,0 +1,43 @@
+.buynowbox{
+    display: flex;
+    padding: 20px 10px;
+    background: linear-gradient(180deg, #FF5300 0%, rgba(255, 88, 7, 0.73) 100%, rgba(255, 83, 0, 0.5) 100%);
+    box-shadow: 0px 0px 22px 0px #F0642133;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+.buynowtxt{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+margin: 0;
+}
+
+.buynow_btn{
+    padding: 5px 20px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+@media (min-width:1px) and (max-width:640px){
+    .buynowbox{
+        flex-direction: column;
+    }
+    .buynowtxt{
+        font-size: 18px;
+    }
+    .buynow_btn{
+        margin: 10px;
+    }
+}

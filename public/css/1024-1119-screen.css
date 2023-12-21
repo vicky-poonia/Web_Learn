@@ -1,0 +1,517 @@
+/* 5. desktop responsive css 1024px to 1119px
+------------------------------------------------------------------------------*/
+@media (min-width:1024px) and (max-width:1119px){
+	/* new-header*/
+	header .header-left .logo{max-width: 185px;}
+	header .header-left .nav .btn-dropdown{margin: 0 17px 0 0;}	
+	header .header-left .nav ul li{margin: 0 17px 0 0;}
+
+	/* --------- home-page ---------- */
+	/* ---------------------------------- */
+	/* header course-menu */
+	header .dropdown-menu .list ul li .icon.icon-font-submenu-arrow{right: 15px;}
+	header .dropdown-menu .list ul li a{padding: 8px 10px 8px 10px;}
+
+	header .dropdown-menu .step-1{width: 250px;}
+	header .dropdown-menu .step-1 ul li a{font-size: 14px;}
+
+	header .dropdown-menu.open .step-2.current,
+	header .dropdown-menu.open .step-2 .current{width: 170px;}
+	header .dropdown-menu .step-2 ul li a{padding: 10px 30px 10px 15px;}
+	
+	header .dropdown-menu.open .step-3.current{padding:25px 20px;}
+	header .dropdown-menu{max-width: 240px;}
+	header .dropdown-menu.desktop .drawerer{width: 75%;}
+
+	.dropdown-menu.desktop .submenu.detail{width: 360px !important;}
+	.dropdown-menu.desktop .submenu.detail a{padding: 0 20px 0 20px;}
+
+	/* --------- category-page01 ---------- */
+	/* ---------------------------------- */
+	.category-page01 .course-listing .list-item .couser-img{max-width: 190px;}
+	.category-page01 .course-listing .list-item .couser-img .icon-font-heart{top: 13px; right: 13px; font-size: 16px;}
+	.category-page01 .course-listing .list-item .couser-img .course-preview figure{max-width: 22px;}
+	.category-page01 .course-listing .list-item .couser-img .course-preview span{font-size: 13px;}
+	.category-page01 .course-listing .list-item .item-content{padding: 5px 5px 12px 10px;}
+	.category-page01 .course-listing .list-item .course-details .title{font-size: 16px; margin: 0 0 8px;}
+	.category-page01 .course-listing .list-item .course-details .course-highlights > div{margin: 0 12px 6px 0;}
+	.category-page01 .course-listing .list-item .course-details .course-highlights i{font-size: 15px;}
+	.category-page01 .course-listing .list-item .bottom .link-startnow{font-size: 14px;}
+
+	.category-page01 .market-dmand .content .caption p{font-size: 17px;}
+
+	.category-page01 .grow-skill h3{max-width: 650px; font-size: 22px;}
+	.category-page01 .grow-skill .block{padding: 0 30px 20px;}
+	.category-page01 .grow-skill .block figure{max-width: 55px; margin: -30px auto 15px;}
+	.category-page01 .grow-skill .block .box-title{font-size: 21px; margin-bottom: 10px;}
+
+	/* --------- product-page ---------- */
+	/* ---------------------------------- */
+	.buy-box{max-width: 320px;}
+
+	.scroll-nav ul li a{padding: 10px 0;}
+	
+	.product-page{padding-top: 30px;}
+	.product-page h2{font-size: 19px;}
+	.product-page .container-left{max-width: calc(100% - 320px);}
+
+	.product-banner .container{padding: 15px 15px 20px;}
+	.product-banner .product-details .course-img{max-width: 230px;}
+	.product-banner .product-details .course-img .play-btn{max-width: 55px;}
+	.product-banner .product-details .course-img .info-btn{max-width: 55px;}
+	.product-banner .course-content .title{font-size: 20px; margin: 0 0 5px;}
+	.product-banner .course-content .level-text{margin-bottom: 5px}
+	.product-banner .course-content .rating-block{padding: 9px 8px; margin-bottom: 10px;}
+	.product-banner .course-content .course-highlights > div + div{margin-left: 20px;}
+	.product-banner .course-content .course-highlights span{font-size: 16px;}
+
+	.product-banner .right-part{max-width: 180px;}
+	.product-banner .right-part .total-learners .icon{font-size: 25px;}
+	.product-banner .right-part .total-learners span{font-size: 14px;}
+
+	.buy-box{max-width: 300px; padding: 17px 17px 15px;}
+	.buy-box .option-group .custom-checkbox{padding: 15px 10px;}
+	.buy-box .option-group .custom-checkbox .name{font-size: 13px;}
+	.buy-box .discount-block{padding: 6px 15px; margin-bottom: 15px}
+	.buy-box .price-and-offer{margin-bottom: 15px;}
+	.buy-box .price-and-offer .price-block .old-price{font-size: 15px;}
+	.buy-box .price-and-offer .price-block .price{font-size: 20px;}
+	.buy-box .share-course{padding-top: 12px;}
+
+	.training-options{margin-bottom: 25px;}
+	.training-options .option-group .option{margin: 0 0 0 8px;}
+	.training-options .option-group .option .name{font-size: 15px;}
+	.training-options .option-group .option .custom-checkbox{padding: 10px;}
+	.training-options .option-group .option .custom-checkbox input{width: 22px; height: 22px;}
+	.training-options .option-group .option .custom-checkbox .checkbox-style{width: 22px; height: 22px; margin-bottom: 10px;}
+	.training-options .option-group .option .custom-checkbox .checkbox-style:before{font-size: 10px;}
+	.training-options .option-group .option .price-and-offer .price-block .price{font-size: 18px;}
+	.training-options .option-group .option .price-and-offer .price-block .old-price{font-size: 14px;}
+	.training-options .option-group .option .price-and-offer .offer{font-size: 11px;}
+
+	.course-overview{margin-bottom: 25px;}
+	.course-overview h2{margin-bottom: 15px;}
+	.course-overview p{margin-bottom: 20px;}
+	.course-overview .container-left{padding-top: 25px;}
+	.course-overview .abilities-block ul li{margin-bottom: 10px;}
+
+	.learn-block{margin-bottom: 35px;}
+	.learn-block .container-left{padding-top: 25px}
+	.learn-block h2{margin-bottom: 15px;}
+	.learn-block ul li{margin-bottom: 15px;}
+
+	.benifits-block{padding: 25px 0 40px;}
+	.benifits-block .tab_wrapper .tab_list li{font-size: 15px; padding: 13px 20px;}
+	.benifits-block .tab_wrapper .tab_list li .icon{font-size: 17px;}
+
+	.exam-info{padding: 25px 0 35px;}
+
+	.why-choose-us{padding: 35px 0 40px;}
+	.why-choose-us .block-group .block .icon{font-size: 21px; margin: 0 15px 0 0;}
+
+	.product-page .review-block{padding: 35px 0;}
+	.product-page .review-block .video-review .title figure{max-width: 35px;}
+	.product-page .review-block .aboutus-block .block{margin-bottom: 20px;}
+	.product-page .review-block .aboutus-block .block .student-img{max-width: 55px; margin: 0 25px 0 0;}
+	.product-page .review-block .aboutus-block .block .review-content{padding-bottom: 20px}
+	.product-page .review-block .aboutus-block .block .review-content p{line-height: 1.6; margin-bottom: 15px;}
+	.product-page .review-block .aboutus-block .block .review-content .name span{font-size: 14px;}
+	.product-page .review-block .aboutus-block .total-feedback{max-width: calc(100% - 80px);}
+	.product-page .review-block .owl-carousel .owl-nav button.owl-prev{left: -15px;}
+
+	.faq-block{padding: 30px 0 40px;}
+	.faq-block .tab_wrapper .tab_list li{font-size: 15px;}
+	.faq-block .tab_wrapper .tab_list li + li{margin: 0 0 0 30px;}
+	.faq-block .tab_wrapper .tab_list li .icon{font-size: 17px;}
+	.faq-block .tab_wrapper .accordian-block .item-head{padding: 10px 20px;}
+	.faq-block .tab_wrapper .accordian-block .item-head span{margin: 0 25px 0 30px;}
+	.faq-block .tab_wrapper .accordian-block .item-head samp{top: 14px;}
+	.faq-block .tab_wrapper .accordian-block .item-content{padding: 15px 25px 15px 50px;}
+
+	.course-slider{padding: 30px 0 95px;}
+	.course-slider .heading .title{font-size: 19px;}
+	.course-slider .course-group .course .course-content{min-height: 200px; padding: 5px 10px 10px;}
+	.course-slider .course-group .course .course-details .title{font-size: 15px; margin-bottom: 0;}
+	.course-slider .course-group .course .course-details .level-text{margin-bottom: 5px;}
+
+	/* --------- product-page if comming-soon---------- */
+	/* ------------------------------------------------- */
+	.training-options .option-group .option.comming-soon{padding: 10px;}
+	.training-options .option-group .option.comming-soon .title{margin-bottom: 10px;}
+	.training-options .option-group .option.comming-soon .title span{font-size: 15px;}
+	.training-options .option-group .option.comming-soon .price-block{font-size: 18px}
+	.training-options .option-group .option.comming-soon .title a.btn-notify{font-size: 13px;}
+
+	/* --------- review-page ---------- */
+	/* ---------------------------------- */
+	.review-page{padding: 25px 0 55px;}
+
+	.review-banner{height: 310px;}
+	.review-banner .banner-title{font-size: 25px; line-height: 1.4;}
+	.review-banner .rating-block .stars-group samp{font-size: 25px; margin-left: 10px;}
+
+	.review-banner .right-part{max-width: 420px;}
+	.review-banner .right-part:before{bottom: -14px;}
+
+	.review-page .review-block{margin-bottom: 25px;}
+	.review-page .review-block .owl-carousel .owl-nav button.owl-next{right: -15px;}
+	.review-page .review-block .owl-carousel .owl-nav button.owl-prev{left: -15px;}
+
+	.review-page .two-column .left-section{margin: 0 20px 0 0;}
+
+	.review-page .students-review-block .block{padding: 25px 20px 0 25px;}
+	.review-page .students-review-block .block .student-img{margin: 0 35px 0 0;}
+
+	/* --------- webinars-page ---------- */
+	/* ---------------------------------- */
+	.webinars-banner{height: 280px;}
+	.webinars-banner .left-part .title{font-size: 30px;}
+	.webinars-banner .left-part .caption{font-size: 22px;}
+	.webinars-banner .right-part{max-width: 422px;}
+
+	.webinar-listing .list-item .img-block{max-width: 380px; margin: 0 25px 0 0;}
+	.webinar-listing .list-item .content .title{font-size: 19px;}
+	.webinar-listing .list-item .content .date-time-block span{font-size: 15px;}
+
+	/* --------- webinar upcoming page ---------- */
+	/* ------------------------------------- */
+	.webinars-record-detail-banner .backto-webinar span{font-size: 16px;}
+	.webinars-record-detail-banner .backto-webinar .icon{font-size: 18px;}
+	.webinars-record-detail-banner .title{font-size: 25px;}
+
+	.webinars-page.subpage .speaker-block .block figure{max-width: 75px;}
+	.webinars-page.subpage .speaker-block .block .block-content span{font-size: 18px;}
+
+	/* --------- webinar slotes filled page ---------- */
+	/* ----------------------------------------- */
+	.webinars-page.subpage .reserved-block{padding: 30px 30px;}
+	.webinars-page.subpage .reserved-block .title{font-size: 19px; margin-bottom: 13px;}
+	.webinars-page.subpage .reserved-block p{font-size: 15px;}
+
+	/* --------- terms of use page ---------- */
+	/* ----------------------------------------- */
+	.terms-use-page{padding: 30px 0 40px; border-bottom: 1px solid #DDD;}
+	.terms-use-page .page-title{margin-bottom: 30px;}
+
+	/* --------- creers page ---------- */
+	/* ------------------------------- */
+	.careers-banner h1{font-size: 28px;}
+	
+	.careers-page .technical-block .heading h2{font-size: 24px;}
+	.careers-page .job-position .job-list-block .block{margin-bottom: 20px;}
+	
+	.culture-values-block{padding: 50px 0;}
+	.culture-values-block .left h3{font-size: 26px;}
+
+	.perks-benifits-block .heading h4{font-size: 24px;}
+	.perks-benifits-block .block-group .block{margin: 0 5% 30px 0;}
+	.perks-benifits-block .block-group .block .title{font-size: 19px;}
+
+	/* --------- creers-detail page ---------- */
+	/* --------------------------------------- */
+	.carees-details-page footer{padding: 65px 0;}
+
+	/* --------- aboutus-page ---------- */
+	/* ---------------------------------- */
+	.aboutus-banner{height: 270px;}
+	.aboutus-banner .left{max-width: 380px;}
+	.aboutus-banner .left span{font-size: 16px;}
+	.aboutus-banner .left h1{font-size: 24px;}
+	.aboutus-banner .right{max-width: calc(100% - 40%);}
+
+	.aboutus-page .our-journy{padding: 60px 0 50px;}
+	.aboutus-page .our-journy .left h2{font-size: 22px;}
+	.aboutus-page .our-journy .left h2 span{font-size: 15px;}
+	.aboutus-page .our-journy .right{max-width: 330px; padding: 30px 35px 25px; margin: 0 0 0 40px;}
+	.aboutus-page .our-journy .right figure{max-width: 50px;}
+	.aboutus-page .our-journy .right p{font-size: 17px;}
+
+	.helped-block{padding: 40px 0 50px;}
+	.helped-block h3{max-width: 400px; font-size: 26px;}
+	.helped-block .block-group .block{padding: 25px 30px 30px;}
+	.helped-block .block-group .block .title{font-size: 20px;}
+
+	.vision-block{padding: 35px 0 45px;}
+	.vision-block .title-block h4{font-size: 22px;}
+	.vision-block .ceo-block .block .img-block{max-width: 400px;}
+	.vision-block .ceo-block .block.alice-blue .intro-block .name{font-size: 20px;}
+	.vision-block .ceo-block .block.alice-blue{padding: 30px 40px;}
+
+	.blogs-block{margin-bottom: 40px;}
+	.blogs-block.owl-carousel .owl-nav button.owl-next{right: -15px;}
+	.blogs-block.owl-carousel .owl-nav button.owl-prev{left: -15px;}
+
+	.borad-diretors .title{font-size: 22px;}
+	.borad-diretors .block-group .block figure{max-width: 80px; height: 80px;}
+
+	.team-block{padding: 40px 0;}	
+	.team-block h5{font-size: 20px;}
+	.team-block .block-group .block figure{max-width: 80px; height: 80px;}
+
+	/*--------- affiliate-program page ------------*/
+	/* --------------------------------------------*/
+	/* affiliate-banner-block */
+	.affiliate-banner-block .feature-block .feature-box{padding: 20px 15px;}
+
+	/* affiliate-join-block */
+	.affiliate-join-block{padding: 50px 0 0;}
+	.affiliate-join-block .join-feature-block{margin-bottom: 50px;}
+	.affiliate-join-block .join-feature-block .feature-box{max-width: calc(100% / 2 - 7px); padding: 20px 25px; margin: 0 0 14px 0;}
+
+	/* affiliate-steps-block */
+	.affiliate-steps-block .step-group{padding: 50px 0;}
+
+	/* faq-block */
+	.affiliate-program .container-small{max-width: 100%;}
+	.affiliate-program .faq-block{padding: 40px 0 50px;}
+	.affiliate-program .faq-block .tab_wrapper .accordian-block .item-head{padding: 15px 0;}
+	.affiliate-program .faq-block .tab_wrapper .accordian-block .item-head samp{width: 12px; height: 12px; margin: 0 0; right: 0;}
+	.affiliate-program .faq-block .tab_wrapper .accordian-block .item-head span{font-size: 17px;}
+	.affiliate-program .faq-block .tab_wrapper .accordian-block .item-content{padding: 0 0 15px 0px;}
+
+	/* --------- subscription-page ---------- */
+	/* ------------------------------------- */
+	/*brands-block*/
+	.subscription-page .brands-block{padding: 60px 0 50px;}
+	.subscription-page .subscription-block .block-group .block{width: 48%;}
+
+	/* faq-block */
+	.subscription-page .faq-block{padding: 40px 0 50px;}
+	.subscription-page .faq-block .title{font-size: 22px; margin-bottom: 25px;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head{padding: 17px 0;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head span{font-size: 17px;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head samp{width: 14px; height: 14px;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head samp:before{width: 14px;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head samp:after{height: 14px;}
+	.subscription-page .faq-block .tab_wrapper .accordian-block .item-head samp{top: 26px;}
+
+	/* testimonial-block */
+	.subscription-page .testimonial-block{padding: 40px 0 100px;}
+	.subscription-page .testimonial-block .heading h5{font-size: 22px;}
+	.subscription-page .testimonial-block .heading figure{max-width: 45px;}
+
+	/* --------- contactus page ---------- */
+	/* ------------------------------------- */
+	.contact-block .left-block h2{font-size: 32px;}
+
+	/* --------- become instructor page ---------- */
+	/* ------------------------------------------- */
+	.banner-become-instructor{height: 390px;}
+	.banner-become-instructor .left-block{padding-bottom: 50px;}
+	.banner-become-instructor .left-block .title{margin-bottom: 15px;}
+	.banner-become-instructor .right-block{right: -50px; max-width: 660px;}
+
+	.enterprice-block{margin-top: -55px;}
+	.enterprice-block .block-group{padding: 22px 30px 22px 20px;}
+	.enterprice-block .block-group .block figure{max-width: 60px;}
+	.enterprice-block .block-group .block .content strong{font-size: 26px;}
+	.enterprice-block .caption-block{margin: 40px 0;}
+
+	.how-work-block .steps-group .step figure{max-width: 55px;}
+	.how-work-block .container-small > p{margin-bottom: 45px;}
+
+	.how-work-block .form-block{padding: 30px 70px 30px 60px;}
+
+	/* ----------- Free test page ----------- */
+	/* -------------------------------------- */
+	.freetest-banner{padding: 40px 0;}
+	.freetest-banner .left{max-width: calc(100% - 340px);}
+
+	.freetest-page .left-column{max-width: calc(100% - 350px); margin: 0 20px 0 0;}
+	.freetest-page .left-column .visit-block{margin-right: 0;}
+	.freetest-page .left-column .content-section h2{font-size: 19px;}
+	.freetest-page .left-column .content-section h3{margin-bottom: 15px;}
+	.freetest-page .left-column .exam-details-block{margin-bottom: 25px;}
+	.freetest-page .left-column .exam-details-block .heading div{font-size: 14px;}
+
+	.freetest-page .left-column .exam-details-block .heading div.topic,
+	.freetest-page .left-column .exam-details-block ul li div.topic{min-width: 100px; max-width: 100px;}
+
+	.freetest-page .left-column .exam-details-block .heading div.no,
+	.freetest-page .left-column .exam-details-block ul li div.no{min-width: 40px; max-width: 40px;}
+
+	.freetest-page .left-column .test-group .test-block .title{font-size: 20px;}
+	.freetest-page .left-column .test-group .test-details .img-block{height: 190px;}
+	.freetest-page .left-column .test-group .test-details .img-block .icon{font-size: 50px;}
+	.freetest-page .left-column .test-group .test-details .description .details-block{padding: 15px;}
+	.freetest-page .left-column .test-group .test-details .description .price-block .price{font-size: 28px;}
+	.freetest-page .left-column .test-group .test-details .description .btn-group{padding: 0 15px 15px;}
+
+
+	.freetest-page .left-column .visit-block .btn-visit{min-width: 150px; height: 43px; line-height: 43px;}
+
+	.freetest-page .price-bar{margin-top: -190px;}
+	.freetest-page .price-bar .top .img-block{height: 190px;}
+	.freetest-page .price-bar .top .img-block .icon{font-size: 55px;}
+	.freetest-page .price-bar .top .price-block .price{font-size: 38px;}
+	.freetest-page .price-bar .top .all-benifits .btn-block p{margin: 10px 0 15px;}
+	.freetest-page .price-bar .help-link{font-size: 22px;}
+
+	/* --------- aws-consulting-page ---------- */
+	/* --------------------------------------- */
+	.aws-consulting-page h2{font-size: 26px;}
+	.aws-consulting-page h4{font-size: 30px;}
+
+	.banner-aws-consulting{height: 450px;}
+	.banner-aws-consulting .container:after{width: 0px;}
+	.banner-aws-consulting .left h1{font-size: 38px; margin-bottom: 15px;}
+	.banner-aws-consulting .left .btn-consultation{min-width: 230px;}
+	.banner-aws-consulting .img-block{max-width: 700px;}
+
+	.aws-consulting-page .awsbenifits-block{padding: 40px 0 50px;}
+
+	.why-choose-block{height: 430px;}
+	.why-choose-block .left-block{padding: 40px 0 50px 50px;}
+	.why-choose-block .left-block h3{font-size: 32px;}
+	.why-choose-block .left-block .sub-title{font-size: 22px;}
+	.why-choose-block .right-block{max-width: 340px; height: 420px; padding: 100px 40px 50px;}
+	.why-choose-block .right-block .text{font-size: 42px; line-height: 50px;}
+	.why-choose-block .right-block .text span{font-size: 28px;}
+
+	.tech-partner-block{padding: 100px 0 50px;}
+
+	.consulting-block .slider-block .block figure{max-width: 70px;}
+	.consulting-block .slider-block .owl-nav button:before{font-size: 13px;}
+	.consulting-block .slider-block .owl-nav button.owl-prev{left: -15px;}
+	.consulting-block .slider-block .owl-nav button.owl-next{right: -15px;}
+
+	.process-block{padding: 50px 0;}
+	.process-block .block-group .block figure{max-width: 80px;}
+
+	.consulting-expert-block .caption{max-width: 290px;}
+	.consulting-expert-block .caption .title{font-size: 33px; margin-bottom: 10px;}
+	.consulting-expert-block .caption-block .btn-contact{min-width: 170px;}
+	.consulting-expert-block figure{max-width: 400px; margin: auto 0 0 70px;}
+
+	/* ------- reseller-register-page -------- */
+	/* --------------------------------------- */
+	.register-page .graphic-img:before{left: 15px; width: 450px; height: 450px;}
+	.register-page .left .content p{max-width: 490px; font-size: 28px;}
+	.register-page .right .box .head figure{max-width: 80px;}
+	.register-page .right .box .terms-block{margin-bottom: 25px;}
+
+	/* --------- error-page ---------- */
+	/* ---------------------------------- */
+	.error-page .container{max-width: 850px;}
+	.error-page figure{max-width: 400px;}
+	.error-page .caption h1{font-size: 36px;}
+
+	/* ----------- parner with us page ----------- */
+	/* -------------------------------------- */
+	/* parner-banner-block */
+	.parner-banner-block{height: 320px;}
+	.parner-banner-block .left .title{font-size: 34px;}
+	.parner-banner-block .right figure{max-width: 580px; margin: 0 0 -40px;}
+
+	/* participation-types */
+	.participation-types .type .head h3{font-size: 28px;}
+	.participation-types .type .block-group .left-block h4{font-size: 24px;}
+	.participation-types .type .block-group .right-block figure{max-width: 400px;}
+
+	/* --------- reset-password-page ----- */
+	/* ---------------------------------- */
+	.reset-password .left .logo{max-width: 190px;}
+	.reset-password .left h1{font-size: 37px;}
+	.reset-password figure{max-width: 200px;}
+	.reset-password form .title{font-size: 27px;}
+
+	/* ------------------------------------- */
+	/* --------- Dashboard pages ---------- */
+	/* ------------------------------------- */
+	.sub-header .left h1{font-size: 22px;}
+	.sub-header .left .breadcrumbs ul{margin: 0 0 3px;}
+
+	/* ----- Dashboard-page ----- */
+	/* -------------------------- */
+	.info-group .info{padding: 20px 15px;}
+	.info-group .info .caption strong{font-size: 24px;}
+	.info-group .info .caption span{font-size: 15px;} 
+
+	.dashboard-page .course-listing .list-item .couser-img{max-width: 160px;}
+
+	.dashboard-page .recent-activity .course-listing .list-item{padding: 10px;}
+	.dashboard-page .recent-activity .course-listing .list-item .couser-img{max-width: 120px;}
+	.dashboard-page .recent-activity .course-listing .list-item .item-content{margin-left: 10px;}
+
+	.dashboard-page .queries-block .block-group .block .left a{font-size: 15px;}
+
+	/* --------- Dashboard Training page ---------- */
+	/* ------------------------------------------- */
+	.tab_content .filter-options .input-box + .input-box{margin-left: 10px;}
+
+	/* tab-certification */
+	.all-certifications .certificate-block .certificate-content .name{font-size: 16px;}
+
+	/* ----- Dashboard Account Setting page ----- */
+	/* ------------------------------------------ */
+	/* tab details */
+	.details-group > div{max-width: calc(100% / 2 - 8px);}
+	.details-group .white-box .user-section figure{max-width: 80px;}
+
+	.details-group .white-box .input-box{max-width: calc(50% - 8px); margin-bottom: 16px;}
+	.details-group .white-box .input-box-group{padding: 20px 20px 4px;}
+	.details-group .white-box .input-box-group .addmore-box{margin: 0 0 16px;}
+	.details-group .white-box .input-box-group .addmore-box .btn-addmore{font-size: 13px;}
+
+	/* tab dashboard-subscription */
+	.dashboard-subscription .plans-block .block-group .block{padding: 20px;}
+	.dashboard-subscription .plans-block .block-group .block .right .price{font-size: 28px;}
+	.dashboard-subscription .plans-block .block-group .block .right .old-price{font-size: 20px;}
+	.dashboard-subscription .plans-block .block-group .block.premium .block-title{font-size: 23px;}
+	.dashboard-subscription .plans-block .block-group .block.premium .mid-content p strong{font-size: 28px;}
+
+	/* tab meassage */
+	.tab-massage{height: calc(100vh - 60px);}
+
+	.tab-massage .chat-box .head .left figure{max-width: 55px;}
+	.tab-massage .chat-box .head .left .item-content span{font-size: 17px;}
+	.tab-massage .chat-box .type-area .btn-send{margin: 0 10px;}
+
+	/* ----- Dashboard Wallet page ----- */
+	/* --------------------------------- */
+	/* tab refer-friend */
+	#tab-referfriend .left .head h2{font-size: 25px;}
+	#tab-referfriend .left .head{margin-bottom: 30px;}
+	#tab-referfriend .left .recomended-block{margin-bottom: 40px;}
+	#tab-referfriend .left .share-link-block .all-links a{width: 38px;}
+
+	#tab-referfriend .right .earned-block{padding-top: 30px;}
+	#tab-referfriend .right .earned-block .earn-price{font-size: 55px;}
+
+	/* tab earning */
+	#tab-earning .earned-block{padding: 20px;}
+	#tab-earning .earned-block .total{font-size: 22px;}
+	#tab-earning .earned-block .total span{font-size: 28px; margin-left: 10px;}
+	#tab-earning .earned-block .btn-group .btn{padding: 0 20px;}
+
+	/* ----- Dashboard special offer page ----- */
+	/* --------------------------------------- */
+	.special-offers-page .all-offers{grid-gap: 15px;}
+	.special-offers-page .all-offers .offer .top .flat-off p span{font-size: 37px;}
+	.special-offers-page .all-offers .offer .top .coupen-code .code{min-width: 130px;}
+
+
+	
+	/**
+	------------------Library Page --------------------
+	--------------------------------------
+	*/
+
+	.category-page .course-listing .list-item .price-review-block-updated{
+		max-width: 100px;
+		margin-left: 10px;
+		flex-direction: column;
+		justify-content: space-evenly;
+		height: 100%;
+	}
+
+	.category-page .course-listing .list-item .price-review-block-updated .rating-block{
+		margin-right: 0px !important;
+	}
+	.category-page .course-listing .list-item .price-review-block-updated .price-block .old-price{font-size: 13px;}
+	.category-page .course-listing .list-item .price-review-block-updated .price-block .price{font-size: 19px;}
+	.category-page .course-listing .list-item .price-review-block-updated .btn-add-cart{padding: 0 5px; width: 100% !important;}
+
+
+	
+}

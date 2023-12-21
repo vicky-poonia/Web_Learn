@@ -1,0 +1,145 @@
+
+.includes_section img{
+    margin: 0;
+}
+.includes_section{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+}
+
+.includes_section_left{
+ width: 70%;
+ padding-right: 10px;
+}
+.includes_section_right{
+    width:30%;
+    height: fit-content;
+    position: sticky;
+    top: 93px;
+    box-shadow: 0px 4px 20px 3px #0000001A;
+    padding: 15px 15px 30px 15px;
+    border-radius: 14px;
+}
+
+.includes_course_hl_txt{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 18px;
+}
+
+.include_course_hl_des{
+margin: 10px 0px 40px 0;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+padding-top: 10px;
+}
+
+.includes_course_item{
+    display: flex;
+    padding: 20px 12px;
+    justify-content: space-between;
+    border-bottom:1px solid #DFE6EF;
+}
+
+.includes_course_item_inner{
+    display: flex;
+    width: 50%;
+    margin: 0px;
+}
+.price_box_includes{
+    margin: 0px;
+}
+.includes_course_type_name{
+    padding-left: 15px;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+margin: 0px;
+}
+.regular_price{
+    color: #51596C80;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.sale_price{
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+padding-left: 5px;
+}
+.includes_inner_box{
+    background:#fafbfc;
+border: 1px solid #DFE6EF;
+border-radius: 8px;
+}
+.icons_course_type{
+   filter:invert(48%) sepia(47%) saturate(1040%) hue-rotate(338deg) brightness(93%) contrast(103%);
+   width: 20px;
+}
+.MuiAccordionSummary-content{
+    margin: 12px 0px !important;
+}
+.includes_includes_text{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+@media (min-width:1px) and (max-width:1024px){
+    .includes_section{
+        flex-direction: column-reverse;
+        margin: 10px 0px;
+    }
+    .includes_section_right{
+        max-width: 560px;
+        position: relative;
+        top: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .includes_section_left{
+        width: 100%;
+        margin: 20px 0px !important;
+    }
+}
+
+.buy_now_btn{
+    padding: 10px 5px;
+    margin: 0 20px;
+    text-align: center;
+    color: white;
+    background: #FF5900;
+    border-radius: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.accessnow{
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #2283F7;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.purchased{
+    color: #f218ae;
+    font-size: 13px;
+}

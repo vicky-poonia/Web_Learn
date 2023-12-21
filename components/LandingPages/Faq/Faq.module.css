@@ -1,0 +1,34 @@
+.title{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin: 20px 0px;
+}
+.question{
+    margin: 8px 0;
+}
+.faq_block{
+    width: 70%;
+}
+.faq_block .MuiPaper-root{
+    box-shadow: none;
+}
+.deatils{
+    background-color: #f8f8f8;
+    padding: 0px !important;
+}
+.answers{
+    padding: 15px ;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+@media(min-width:1px) and (max-width:640px){
+    .faq_block{
+        width: 100%;
+    }
+}
+

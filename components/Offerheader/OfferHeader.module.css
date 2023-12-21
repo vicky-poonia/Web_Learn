@@ -1,0 +1,27 @@
+.offer_header{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 99999;
+    user-select: none;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grab_btn{
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.2s ease-out;
+}
+.grab_btn:hover{
+    text-decoration: underline;
+    font-style: italic;
+}
+.offer_header strong{margin: 0;}
+.offer_header img{margin: 0;padding-right: 10px;filter: invert(1);}
+.offer_header span{margin: 0;}
+
+@media (min-width:1px) and (max-width:767px){
+    .offer_header{display: block;}
+}

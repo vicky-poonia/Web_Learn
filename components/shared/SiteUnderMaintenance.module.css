@@ -1,0 +1,11 @@
+.annoucementBlock{
+    position: static; top: 0; width: 100%; height: auto; background: #D0342c; color: #ffffff; font-size: 16px; 
+    display: flex; text-align: center; justify-content: center; padding: 10px 0px 10px 0px; 
+    z-index: 999; 
+}
+.annoucementBlock .container{
+    display: flex; align-items: center; justify-content: flex-end; max-width: 1330px; padding: 5px 30px 5px 15px;
+}
+.container p{color: #fff; font-size: 16px; font-weight: 600; margin-top: 0; margin-bottom: 0;}
+.annoucementBlock a{ font-weight: 600; font-style: italic; color: #ffffff; text-decoration: underline; }
+.annoucementBlock .link{font-weight: 600; color: #ffffff; font-style: italic; text-decoration: underline;}

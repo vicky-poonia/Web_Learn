@@ -1,0 +1,39 @@
+.img_size{
+    text-align: center;
+    margin: 40px 0px;
+}
+.img_size img{
+    width: 100%;
+}
+.globalrevies{
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.innerImage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.images_inner_lp img{
+    width: 70%;
+    height: 30%;
+}
+
+@media (min-width:1px) and (max-width:640px){
+    .innerImage{
+        flex-direction: column;
+        position: relative;
+        top: 0;
+        left: 0%;
+        transform: none;
+    }
+    .img_size img{
+       display: none;
+    }
+}

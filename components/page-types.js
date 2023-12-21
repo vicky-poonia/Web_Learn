@@ -1,0 +1,5 @@
+export const CATEGORY_LANDING_PAGE = "CATEGORY_LANDING_PAGE";
+export const PRODUCT_LANDING_PAGE = "PRODUCT_LANDING_PAGE";
+export const STATIC_PAGE = "STATIC_PAGE";
+export const PPC = "PPC"
+export const SANDBOX_PAGE = "SANDBOX_PAGE"

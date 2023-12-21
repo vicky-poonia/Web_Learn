@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1054" height="1319.129" viewBox="0 0 1054 1319.129">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.719" y1="1" x2="0.25" y2="0.128" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fa9a00"/>
+      <stop offset="1" stop-color="#ffbd53"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.212" y1="0.106" x2="0.696" y2="0.951" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f06421"/>
+      <stop offset="1" stop-color="#ec472e"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2936" data-name="Group 2936" transform="translate(23396 14657)">
+    <path id="Path_3583" data-name="Path 3583" d="M406.723,388.079,228.316,66.17C205.045,25.447,162.383.237,117.781.237H9.185C1.428.237-2.45,7.994,1.428,13.812l242.4,438.261c21.331,40.723,63.994,65.933,110.535,65.933H478.474l-17.453-31.027,17.453,31.027h89.2c15.514,0,25.21-15.514,17.453-29.088C474.6,488.918,420.3,411.349,406.723,388.079Z" transform="translate(-23180.906 -14183.036)" fill="url(#linear-gradient)"/>
+    <path id="Path_3584" data-name="Path 3584" d="M417.7,403.179,234.478,68.737C210.58,26.429,166.766.237,120.961.237H9.436C1.469.237-2.514,8.3,1.469,14.34L250.411,469.665c21.907,42.309,65.72,68.5,113.517,68.5H491.385L473.462,505.93l17.924,32.235H583c15.932,0,25.89-16.118,17.924-30.221C487.4,507.944,431.64,427.356,417.7,403.179Z" transform="translate(-23395.906 -13876.036)" fill="url(#linear-gradient-2)"/>
+    <g id="Group_2916" data-name="Group 2916">
+      <g id="Rectangle_2184" data-name="Rectangle 2184" transform="translate(-22913 -14232)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3" opacity="0.15">
+        <rect width="153" height="452" rx="76.5" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="156" height="455" rx="78" fill="none"/>
+      </g>
+      <g id="Rectangle_2185" data-name="Rectangle 2185" transform="translate(-23122 -14444)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3" opacity="0.15">
+        <rect width="571" height="873" rx="285.5" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="574" height="876" rx="287" fill="none"/>
+      </g>
+      <g id="Rectangle_2186" data-name="Rectangle 2186" transform="translate(-23328 -14654)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="3" opacity="0.15">
+        <rect width="983" height="1290" rx="491.5" stroke="none"/>
+        <rect x="-1.5" y="-1.5" width="986" height="1293" rx="493" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

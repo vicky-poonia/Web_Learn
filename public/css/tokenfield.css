@@ -1,0 +1,176 @@
+/*!
+ * bootstrap-tokenfield
+ * https://github.com/sliptree/bootstrap-tokenfield
+ * Copyright 2013-2014 Sliptree and other contributors; Licensed MIT
+ */
+.tokenfield {
+  display: flex; 
+  flex-wrap: wrap; 
+  height: auto;
+  min-height: 40px;
+  padding-bottom: 0px;
+  background: #F3F3F4;
+  padding: 0 6px 6px;
+  border-radius: 6px;
+}
+.tokenfield.focus {
+  border-color: #FBD0BC !important;
+  box-shadow: 0 0 0 4px rgba(254,239,232,1);
+}
+.tokenfield .token {
+  display: flex; 
+  align-items: center;
+  background: #fff;
+  height: 28px;
+  line-height: 28px;
+  margin: 5px 5px 0 0; 
+  padding: 0 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  cursor: default;
+}
+.tokenfield .token:hover {
+  border-color: #b9b9b9;
+}
+.tokenfield .token.active {
+  border-color: #52a8ec;
+  border-color: rgba(82, 168, 236, 0.8);
+}
+.tokenfield .token.duplicate {
+  border-color: #ebccd1;
+  -webkit-animation-name: blink;
+  animation-name: blink;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.tokenfield .token.invalid {
+  background: none;
+  border: 1px solid transparent;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border-bottom: 1px dotted #d9534f;
+}
+.tokenfield .token.invalid.active {
+  background: #ededed;
+  border: 1px solid #ededed;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.tokenfield .token .token-label {
+  display: inline-block;
+  color: #62646A;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+.tokenfield .token .close {
+  color: #62646A;
+  font-size: 8px;
+  padding-left: 8px;
+}
+.tokenfield .token-input {
+  background: none;
+  padding: 0;
+  border: 0;
+}
+.tokenfield .token-input:focus {
+  border-color: transparent;
+  outline: 0;
+  /* IE6-9 */
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.tokenfield.disabled {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+.tokenfield.disabled .token-input {
+  cursor: not-allowed;
+}
+.tokenfield.disabled .token:hover {
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+}
+.tokenfield.disabled .token:hover .close {
+  cursor: not-allowed;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+/* .has-warning .tokenfield.focus {
+  border-color: #66512c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+}
+.has-error .tokenfield.focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+.has-success .tokenfield.focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+} */
+.tokenfield.input-sm,
+.input-group-sm .tokenfield {
+  min-height: 30px;
+  padding-bottom: 0px;
+}
+.input-group-sm .token,
+.tokenfield.input-sm .token {
+  height: 20px;
+  margin-bottom: 4px;
+}
+.input-group-sm .token-input,
+.tokenfield.input-sm .token-input {
+  height: 18px;
+  margin-bottom: 5px;
+}
+.tokenfield.input-lg,
+.input-group-lg .tokenfield {
+  min-height: 45px;
+  padding-bottom: 4px;
+}
+.input-group-lg .token,
+.tokenfield.input-lg .token {
+  height: 25px;
+}
+.input-group-lg .token-label,
+.tokenfield.input-lg .token-label {
+  line-height: 23px;
+}
+.input-group-lg .token .close,
+.tokenfield.input-lg .token .close {
+  line-height: 1.3em;
+}
+.input-group-lg .token-input,
+.tokenfield.input-lg .token-input {
+  height: 23px;
+  line-height: 23px;
+  margin-bottom: 6px;
+  vertical-align: top;
+}
+.tokenfield.rtl {
+  direction: rtl;
+  text-align: right;
+}
+.tokenfield.rtl .token {
+  margin: -1px 0 5px 5px;
+}
+.tokenfield.rtl .token .token-label {
+  padding-left: 0px;
+  padding-right: 4px;
+}
+
+@media (min-width:1px) and (max-width:640px){
+  .tokenfield .token .token-label{font-size: 12px;}
+}

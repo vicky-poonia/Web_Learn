@@ -1,0 +1,113 @@
+@media (min-width:1235px) and (max-width:1500px) {
+	.exam-format-block .exam-box-group {
+		grid-gap: 10px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.unlock-courses-block .block-group .block ul {
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+		margin: 0;
+	}
+
+	.lp-content-banner .course-highlights .block-group figure {
+		max-width: 36px;
+		width: 100%;
+		margin: 0 10px 0 0;
+	}
+
+	.lp-content-banner .course-highlights .block-group .txt-box span {
+		font-size: 22px;
+		font-weight: 600;
+		line-height: 24px;
+	}
+
+	.lp-content-banner .caption-block .btn-buy {
+		height: 45px;
+		line-height: 45px;
+		max-width: 200px;
+		font-size: 16px;
+
+	}
+
+	.unlock-courses-block .block-group .block ul li {
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	.unlock-courses-block .block-group label {
+		font-size: 24px;
+	}
+
+	.unlock-courses-block {
+		padding: 60px 0 45px 0;
+	}
+
+	.unlock-box .lock-img {
+		max-width: 70px;
+		margin: 0;
+	}
+	.unlock-box .head-txt{
+		font-size: 26px;
+	  line-height: 39px;
+	}
+	.unlock-box .option-group ul .option .name figure {
+		max-width: 36px;
+		margin: 0 12px 0 0;
+	  }
+	  .unlock-box .price-and-offer .offer
+	  {
+		  font-size: 16px;
+	  }
+	  .unlock-box .price-and-offer .price-block .price{
+		font-size: 22px;
+		margin: 0 0 0 10px
+	}
+	.enroll-now-block .inner {
+		border-radius: 12px;
+		padding: 30px;
+		}
+		.enroll-now-block .inner .caption {
+			font-size: 26px;
+			line-height: 36px;
+		}
+		.benefits-section {
+			padding: 60px 0;
+		  }
+		  .benefits-section .caption-block h2 {
+			font-size: 26px;
+			line-height: 40px
+		  }
+		  .benefits-section .img-block{
+			max-width: 275px;
+		}
+		.enroll-now-block .inner .btn {
+			max-width: 205px; 
+		   
+			height: 50px;
+			line-height: 50px;}
+			.exam-format-block .exam-box-group .exam-box figure {
+				max-width: 50px;
+			 }
+			 .exam-format-block .exam-box-group .exam-box label {
+				/* display: block; */
+				font-size: 18px;
+				line-height: 20px;
+				/* font-weight: 500; */
+				/* color: #1F2430; */
+				margin: 0;
+			}
+			.exam-format-block .enroll-block .btn-now{
+				font-size: 20px;
+			}
+			.faq-acc-lp{
+				font-size: 18px;
+			  }
+			  .exam-format-block .enroll-block p{
+				font-size: 20px;
+			}
+			.font_head_lp{
+				font-size: 27px;
+			}
+}

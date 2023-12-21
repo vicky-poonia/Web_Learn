@@ -1,0 +1,100 @@
+[
+  {
+    "title": "25,000+ Practice Questions",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "4,500+ Training Videos",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Latest Updates to Practice Tests",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Latest Updates to Video Courses",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Progress Tracker",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Detailed Performance Reports",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Access to Expert Webinars",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Course Completion Certificates",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "24x7 Tech Support",
+    "l1": true,
+    "l2": true,
+    "l3": true,
+    "special": false
+  },
+  {
+    "title": "Labs Integrated with training content",
+    "l1": false,
+    "l2": true,
+    "l3": true,
+    "special": true
+  },
+  {
+    "title": "750+ Guided Hands-on Labs",
+    "l1": false,
+    "l2": true,
+    "l3": true,
+    "special": true
+  },
+  {
+    "title": "Test Your Cloud Skills",
+    "l1": false,
+    "l2": true,
+    "l3": true,
+    "special": true
+  },
+  {
+    "title": "Projects <small style={{fontSize:'10px'}}> Detailed Case Studies and Scenarios Simulating Real-Time Cloud Infrastructures and Applications.</small>",
+    "l1": false,
+    "l2": false,
+    "l3": true,
+    "special": true
+  },
+  {
+    "title": "Cloud Sandboxes <small>AWS, Azure, Google Cloud, Power Platform, Python etc...</small>",
+    "l1": false,
+    "l2": false,
+    "l3": true,
+    "special": true
+  }
+]

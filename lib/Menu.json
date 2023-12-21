@@ -1,0 +1,3944 @@
+[
+  {
+    "id": 129,
+    "parent_id": null,
+    "name": "Hands-on-Labs",
+    "slug": "labs/library",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon icon-font-bicker"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 16,
+    "status": true,
+    "children": []
+  },
+  {
+    "id": 128,
+    "parent_id": null,
+    "name": "Cloud Sandbox",
+    "slug": "cloud-sandbox",
+    "group_id": null,
+    "icon": {
+      "icon_type": "icon",
+      "icon": "icon-font-upload"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 16,
+    "status": true,
+    "children": [
+      {
+        "id": 82,
+        "parent_id": 128,
+        "name": "AWS Sandbox",
+        "slug": "aws-sandbox",
+        "group_id": null,
+        "icon": {
+          "icon_type": "ico",
+          "icon": "aws-sandbox.svg"
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 113,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 144,
+        "parent_id": 128,
+        "name": "Google Cloud Sandbox",
+        "slug": "google-cloud-sandbox",
+        "group_id": null,
+        "icon": {
+          "icon_type": "ico",
+          "icon": "google-sandbox.svg"
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 114,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1732,
+        "parent_id": 128,
+        "name": "Azure Sandbox",
+        "slug": "azure-sandbox",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 115,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1732,
+        "parent_id": 128,
+        "name": "Power BI Sandbox",
+        "slug": "power-bi-sandbox",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 115,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1733,
+        "parent_id": 128,
+        "name": "Jupyter Sandbox",
+        "slug": "jupyter-sandbox",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 115,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "parent_id": null,
+    "name": "Cloud Computing",
+    "slug": "cloud-certification-training-courses",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-cloud"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 1,
+    "status": true,
+    "children": [
+      {
+        "id": 7,
+        "parent_id": 1,
+        "name": "Amazon (AWS)",
+        "slug": "aws-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 1,
+        "status": true,
+        "category_id": 15,
+        "children": [
+          {
+            "id": 28,
+            "parent_id": 7,
+            "name": "AWS Certified Cloud Practitioner",
+            "slug": "aws-certified-cloud-practitioner",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 1,
+            "status": true
+          },
+          {
+            "id": 29,
+            "parent_id": 7,
+            "name": "AWS Certified Solutions Architect Associate",
+            "slug": "aws-solutions-architect-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 2,
+            "status": true
+          },
+          {
+            "id": 30,
+            "parent_id": 7,
+            "name": "AWS Certified Developer Associate",
+            "slug": "aws-developer-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 3,
+            "status": true
+          },
+          {
+            "id": 31,
+            "parent_id": 7,
+            "name": "AWS Certified SysOps Administrator Associate",
+            "slug": "aws-sysops-administrator-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 4,
+            "status": true
+          },
+          {
+            "id": 292,
+            "parent_id": 7,
+            "name": "AWS Beginner Essentials",
+            "slug": "aws-beginner-essentials",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 2,
+            "status": true
+          },
+          {
+            "id": 32,
+            "parent_id": 7,
+            "name": "AWS Certified Solutions Architect Professional",
+            "slug": "aws-solutions-architect-professional",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 5,
+            "status": true
+          },
+          {
+            "id": 2065,
+            "parent_id": 7,
+            "name": "AWS Certified DevOps Engineer Professional",
+            "slug": "aws-devops-certification-training",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 6,
+            "status": true
+          },
+          {
+            "id": 59,
+            "parent_id": 7,
+            "name": "AWS Certified Advanced Networking Specialty",
+            "slug": "aws-advanced-networking-speciality",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 7,
+            "status": true
+          },
+          {
+            "id": 60,
+            "parent_id": 7,
+            "name": "AWS Certified Security Specialty",
+            "slug": "aws-certified-security-specialty",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 8,
+            "status": true
+          },
+          {
+            "id": 222,
+            "parent_id": 7,
+            "name": "AWS Certified Data Analytics - Specialty",
+            "slug": "aws-certified-data-analytics-specialty",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 9,
+            "status": true
+          },
+          {
+            "id": 293,
+            "parent_id": 7,
+            "name": "Basics of Cloud Computing",
+            "slug": "basics-cloud-computing",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 9,
+            "status": true
+          },
+          {
+            "id": 179,
+            "parent_id": 7,
+            "name": "AWS Certified Machine Learning - Specialty",
+            "slug": "aws-certified-machine-learning-specialty",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 10,
+            "status": true
+          },
+          {
+            "id": 215,
+            "parent_id": 7,
+            "name": "AWS Certified Database - Specialty",
+            "slug": "aws-certified-database-specialty",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 12,
+            "status": true
+          },
+          {
+            "id": 216,
+            "parent_id": 7,
+            "name": "AWS Certified: SAP on AWS - Specialty",
+            "slug": "sap-on-aws-certification-exam-training",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 12,
+            "status": true
+          },
+          {
+            "id": 217,
+            "parent_id": 7,
+            "name": "AWS Certified Data Engineer - Associate Beta Certification",
+            "slug": "aws-certified-data-engineer-certification-exam",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 12,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "parent_id": 1,
+        "name": "Microsoft Azure",
+        "slug": "microsoft-azure-certification-training-courses",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 2,
+        "status": true,
+        "category_id": 18,
+        "children": [
+          {
+            "id": 218,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-104",
+            "slug": "microsoft-azure-certification-az-104",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 13,
+            "status": true
+          },
+          {
+            "id": 36,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-900",
+            "slug": "microsoft-azure-certification-az-900",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 14,
+            "status": true
+          },
+          {
+            "id": 373,
+            "parent_id": 8,
+            "name": "Azure Beginner Essentials",
+            "slug": "azure-beginner-essentials",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 14,
+            "status": true
+          },
+          {
+            "id": 175,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-500",
+            "slug": "microsoft-azure-certification-az-500",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 15,
+            "status": true
+          },
+          {
+            "id": 1534,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-800",
+            "slug": "microsoft-azure-certification-az-800",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 17,
+            "status": true
+          },
+          {
+            "id": 1666,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-801",
+            "slug": "az-801-configuring-windows-server-hybrid-advanced-services",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 18,
+            "status": true
+          },
+          {
+            "id": 163,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-400",
+            "slug": "microsoft-azure-certification-az-400",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 19,
+            "status": true
+          },
+          {
+            "id": 219,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-204",
+            "slug": "microsoft-azure-certification-az-204",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 21,
+            "status": true
+          },
+          {
+            "id": 233,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AZ-120",
+            "slug": "microsoft-azure-certification-az-120",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 23,
+            "status": true
+          },
+          {
+            "id": 1336,
+            "parent_id": 8,
+            "name": "Microsoft Azure Virtual Desktop (AZ-140)",
+            "slug": "configuring-and-operating-microsoft-azure-virtual-desktop-az-140",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 24,
+            "status": true
+          },
+          {
+            "id": 1237,
+            "parent_id": 8,
+            "name": "Microsoft Azure Infrastructure Solutions (AZ-305)",
+            "slug": "designing-microsoft-azure-infrastructure-solutions-az-305",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 25,
+            "status": true
+          },
+          {
+            "id": 240,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam DP-900",
+            "slug": "microsoft-azure-certification-dp-900",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 26,
+            "status": true
+          },
+          {
+            "id": 273,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam DP-300",
+            "slug": "microsoft-azure-certification-dp-300",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 27,
+            "status": true
+          },
+          {
+            "id": 261,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam DP-100",
+            "slug": "microsoft-azure-certification-dp-100",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 28,
+            "status": true
+          },
+          {
+            "id": 447,
+            "parent_id": 8,
+            "name": "Microsoft Identity and Access Administrator SC-300",
+            "slug": "microsoft-identity-and-access-administrator-sc-300",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 29,
+            "status": true
+          },
+          {
+            "id": 1897,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam SC-400",
+            "slug": "microsoft-azure-certification-sc-400",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 30,
+            "status": true
+          },
+          {
+            "id": 379,
+            "parent_id": 8,
+            "name": "Microsoft Security, Compliance and Identity Fundamentals (SC-900)",
+            "slug": "microsoft-security-compliance-identity-fundamentals-sc-900-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 31,
+            "status": true
+          },
+          {
+            "id": 875,
+            "parent_id": 8,
+            "name": "Microsoft Security Operations Analyst (SC-200)",
+            "slug": "microsoft-security-operations-analyst-sc-200",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 32,
+            "status": true
+          },
+          {
+            "id": 260,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AI-900",
+            "slug": "microsoft-azure-certification-ai-900",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 33,
+            "status": true
+          },
+          {
+            "id": 446,
+            "parent_id": 8,
+            "name": "Microsoft Azure Exam AI-102",
+            "slug": "microsoft-azure-certification-ai-102",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 34,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "parent_id": 1,
+        "name": "Google Cloud",
+        "slug": "google-cloud-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 3,
+        "status": true,
+        "category_id": 19,
+        "children": [
+          {
+            "id": 676,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Cloud Digital Leader",
+            "slug": "google-cloud-certified-cloud-digital-leader",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 35,
+            "status": true
+          },
+          {
+            "id": 170,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Associate Cloud Engineer",
+            "slug": "google-cloud-certified-associate-cloud-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 36,
+            "status": true
+          },
+          {
+            "id": 37,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud Architect",
+            "slug": "google-cloud-certified-professional-cloud-architect",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 37,
+            "status": true
+          },
+          {
+            "id": 62,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Data Engineer",
+            "slug": "google-cloud-certified-professional-data-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 38,
+            "status": true
+          },
+          {
+            "id": 187,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud Developer",
+            "slug": "google-cloud-certified-professional-cloud-developer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 39,
+            "status": true
+          },
+          {
+            "id": 189,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud Security Engineer",
+            "slug": "google-cloud-certified-professional-cloud-security-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 40,
+            "status": true
+          },
+          {
+            "id": 192,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud Network Engineer",
+            "slug": "google-cloud-certified-professional-cloud-network-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 41,
+            "status": true
+          },
+          {
+            "id": 448,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud DevOps Engineer",
+            "slug": "google-cloud-certified-professional-cloud-devops-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 42,
+            "status": true
+          },
+          {
+            "id": 449,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Machine Learning Engineer",
+            "slug": "professional-machine-learning-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 43,
+            "status": true
+          },
+          {
+            "id": 677,
+            "parent_id": 9,
+            "name": "Google Cloud Certified Professional Cloud Database Engineer",
+            "slug": "google-cloud-certified-professional-database-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 44,
+            "status": true
+          },
+          {
+            "id": 775,
+            "parent_id": 9,
+            "name": "Professional Google Workspace Administrator",
+            "slug": "google-cloud-certified-professional-collaboration-engineer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 45,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "parent_id": 1,
+        "name": "Cloud Security",
+        "slug": "cloud-security-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 4,
+        "status": true,
+        "children": [
+          {
+            "id": 38,
+            "parent_id": 10,
+            "name": "Certificate of Cloud Security Knowledge (CCSK v.4)",
+            "slug": "certificate-of-cloud-security-knowledge",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 45,
+            "status": true
+          },
+          {
+            "id": 157,
+            "parent_id": 10,
+            "name": "Certified Cloud Security Professional (CCSP)",
+            "slug": "certified-cloud-security-professional",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 46,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "parent_id": 1,
+        "name": "Salesforce",
+        "slug": "salesforce-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 5,
+        "status": true,
+        "children": [
+          {
+            "id": 39,
+            "parent_id": 11,
+            "name": "Salesforce Administrator",
+            "slug": "salesforce-admin-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 47,
+            "status": true
+          },
+          {
+            "id": 172,
+            "parent_id": 11,
+            "name": "Salesforce Platform App Builder",
+            "slug": "salesforce-platform-app-builder",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 48,
+            "status": true
+          },
+          {
+            "id": 173,
+            "parent_id": 11,
+            "name": "Salesforce Sharing and Visibility Designer",
+            "slug": "salesforce-certified-sharing-and-visibility-designer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 49,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 1798,
+        "parent_id": 1,
+        "name": "Oracle Cloud",
+        "slug": "oracle--cloud-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 6,
+        "status": true,
+        "children": [
+          {
+            "id": 1864,
+            "parent_id": 1798,
+            "name": "Oracle Cloud Infrastructure 2022 Foundations Associate Exam (1Z0-1085-22)",
+            "slug": "oracle-cloud-infrastructure-foundations-2021-associate-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 50,
+            "status": true
+          },
+          {
+            "id": 1865,
+            "parent_id": 1798,
+            "name": "Oracle Database Administration I (1Z0-082) Certification Exam",
+            "slug": "oracle-database-administration-professional-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 50,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 120,
+        "parent_id": 1,
+        "name": "Alibaba Cloud",
+        "slug": "alibaba-cloud-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 7,
+        "status": true,
+        "children": [
+          {
+            "id": 477,
+            "parent_id": 120,
+            "name": "Alibaba - ACA Cloud Computing Certification",
+            "slug": "aca-cloud-computing-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 51,
+            "status": true
+          },
+          {
+            "id": 874,
+            "parent_id": 120,
+            "name": "Alibaba - ACP Cloud Computing Professional",
+            "slug": "acp-cloud-computing-professional",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 52,
+            "status": true
+          },
+          {
+            "id": 121,
+            "parent_id": 120,
+            "name": "Alibaba Cloud Certified Professional Big Data",
+            "slug": "alibaba-cloud-certified-professional-big-data",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 53,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "parent_id": 1,
+        "name": "Snowflake",
+        "slug": "snowflake",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 8,
+        "status": true,
+        "children": [
+          {
+            "id": 312,
+            "parent_id": 279,
+            "name": "Snowflake SnowPro Core Certification",
+            "slug": "snowflake-snowpro-core-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 54,
+            "status": true
+          },
+          {
+            "id": 1965,
+            "parent_id": 279,
+            "name": "SnowPro Advanced Architect Certification",
+            "slug": "snowflake-snowpro-advanced-architect-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 55,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 1997,
+        "parent_id": 1,
+        "name": "Vmware",
+        "slug": "vmware-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 9,
+        "status": true,
+        "children": [
+          {
+            "id": 1998,
+            "parent_id": 1997,
+            "name": "VMware Certified Technical Associate (VCTA-DCV)",
+            "slug": "vmware-certified-technical-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 56,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 1999,
+        "parent_id": 1,
+        "name": "Databricks",
+        "slug": "databricks-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 9,
+        "status": true,
+        "children": [
+          {
+            "id": 2000,
+            "parent_id": 1999,
+            "name": "Databricks Certified Data Engineer Associate",
+            "slug": "databricks-certified-data-engineer-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 57,
+            "status": true
+          },
+          {
+            "id": 2001,
+            "parent_id": 1999,
+            "name": "Databricks Certified Data Analyst Associate",
+            "slug": "databricks-certified-data-analyst-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 58,
+            "status": true
+          },
+          {
+            "id": 2002,
+            "parent_id": 1999,
+            "name": "Databricks Certified Associate Developer for Apache Spark (Python)",
+            "slug": "databricks-certified-associate-developer-apache-spark",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 59,
+            "status": true
+          },
+          {
+            "id": 2003,
+            "parent_id": 1999,
+            "name": "Databricks Certified Data Engineer Professional Certification",
+            "slug": "databricks-certified-data-engineer-professional",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 60,
+            "status": true
+          },
+          {
+            "id": 2003,
+            "parent_id": 1999,
+            "name": "Data Governance with Databricks",
+            "slug": "data-governance-with-databricks",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 60,
+            "status": true
+          },
+          {
+            "id": 2005,
+            "parent_id": 1999,
+            "name": "Databricks Certified Machine Learning Associate",
+            "slug": "databricks-certified-machine-learning-associate",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 61,
+            "status": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "parent_id": null,
+    "name": "DevOps",
+    "slug": "devops-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-devops"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 2,
+    "status": true,
+    "children": [
+      {
+        "id": 1468,
+        "parent_id": 148,
+        "name": "HashiCorp Certified Terraform Associate",
+        "slug": "hashicorp-certified-terraform-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 10,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 511,
+        "parent_id": 148,
+        "name": "Docker Certified Associate (DCA)",
+        "slug": "docker-certified-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 11,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 2188,
+        "parent_id": 148,
+        "name": "Automation with Ansible",
+        "slug": "automation-with-ansible",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 12,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 2189,
+        "parent_id": 148,
+        "name": "Automation with Salt",
+        "slug": "automation-with-salt",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 13,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 2190,
+        "parent_id": 148,
+        "name": "Getting Started with Chef Cookbooks",
+        "slug": "chef-cookbooks",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 14,
+        "status": true,
+        "children": []
+      },
+
+      {
+        "id": 214,
+        "parent_id": 148,
+        "name": "Certified Jenkins Engineer",
+        "slug": "certified-jenkins-engineer",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 12,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 193,
+        "parent_id": 148,
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "slug": "certified-kubernetes-administrator",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 14,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1501,
+        "parent_id": 148,
+        "name": "HashiCorp Certified Vault Associate",
+        "slug": "hashicorp-certified-vault-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 15,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1567,
+        "parent_id": 148,
+        "name": "HashiCorp Certified Consul Associate",
+        "slug": "hashicorp-certified-consul-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 16,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 238,
+        "parent_id": 148,
+        "name": "Infrastructure automation with Terraform",
+        "slug": "infrastructure-automation-with-terraform",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 17,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 194,
+        "parent_id": 148,
+        "name": "Certified Kubernetes Application Developer (CKAD)",
+        "slug": "certified-kubernetes-application-developer",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 18,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 213,
+        "parent_id": 148,
+        "name": "Puppet 206",
+        "slug": "puppet-206",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 21,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 185,
+        "parent_id": 148,
+        "name": "AWS Certified DevOps Engineer Professional",
+        "slug": "aws-devops-certification-training",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 22,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 188,
+        "parent_id": 148,
+        "name": "Git and GitHub Training Course",
+        "slug": "git-fundamentals",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 23,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 241,
+        "parent_id": 148,
+        "name": "Chatbot with Dialogflow/Nodejs",
+        "slug": "chatbot-with-dialogflow-nodejs",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 24,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 258,
+        "parent_id": 148,
+        "name": "Atlassian Bamboo CI/CD",
+        "slug": "atlassian-bamboo-ci-cd",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": true,
+        "position": 25,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 152,
+        "parent_id": 148,
+        "name": "Puppet 205",
+        "slug": "puppet-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 26,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 510,
+        "parent_id": 148,
+        "name": "Automating Infrastructure - Chef for DevOps",
+        "slug": "chef-for-devops",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 27,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 511,
+        "parent_id": 148,
+        "name": "Getting Started with Puppet",
+        "slug": "getting-started-with-puppet",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 28,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "parent_id": null,
+    "name": "Cyber Security",
+    "slug": "cyber-security-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-lock"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 3,
+    "status": true,
+    "children": [
+      {
+        "id": 225,
+        "parent_id": 223,
+        "name": "Certified Ethical Hacker",
+        "slug": "ceh-certification-training-course",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 29,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 201,
+        "parent_id": 223,
+        "name": "SSL/TLS Basics",
+        "slug": "ssl-tls-basics",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 30,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 263,
+        "parent_id": 223,
+        "name": "Kali Linux for Ethical Hackers and Pentesters",
+        "slug": "kali-linux-for-ethical-hackers-and-pentesters",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 31,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 268,
+        "parent_id": 223,
+        "name": "Cisco Certified CyberOps Associate",
+        "slug": "cisco-certified-cyberops-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 32,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 743,
+        "parent_id": 223,
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "slug": "certified-information-systems-security-professional",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 33,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 74301,
+        "parent_id": 223,
+        "name": "Certified in Cybersecurity Certification Exam",
+        "slug": "isc-certified-cybersecurity",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 33,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "parent_id": null,
+    "name": "Java",
+    "slug": "oracle-java-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-java"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 4,
+    "status": true,
+    "children": [
+      {
+        "id": 1963,
+        "parent_id": 74,
+        "name": "Oracle Certified Foundations Associate (OCFA)",
+        "slug": "#",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 35,
+        "status": true,
+        "children": [
+          {
+            "id": 1964,
+            "parent_id": 1963,
+            "name": "Java Foundations 1Z0-811",
+            "slug": "ocfa-java-foundations-1z0-811",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 57,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 133,
+        "parent_id": 74,
+        "name": "Spring Framework",
+        "slug": "spring-framework-training-courses",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 36,
+        "status": true,
+        "children": [
+          {
+            "id": 543,
+            "parent_id": 133,
+            "name": "VMware Certified Spring Professional",
+            "slug": "vmware-certified-spring-professional",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 58,
+            "status": true
+          },
+          {
+            "id": 134,
+            "parent_id": 133,
+            "name": "Spring Framework Basics",
+            "slug": "spring-framework-basics-video-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 59,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "parent_id": 74,
+        "name": "Oracle Certified Associate (OCA)",
+        "slug": "#",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 37,
+        "status": true,
+        "children": [
+          {
+            "id": 107,
+            "parent_id": 90,
+            "name": "Java SE 8 Programmer - 1Z0-808",
+            "slug": "ocajp-scja",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 60,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 239,
+        "parent_id": 74,
+        "name": "Java For Beginners",
+        "slug": "java-for-beginners",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 38,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 251,
+        "parent_id": 74,
+        "name": "Advanced Java Course",
+        "slug": "advanced-java-course",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 111,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 91,
+        "parent_id": 74,
+        "name": "Oracle Certified Professional (OCP)",
+        "slug": "#",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 39,
+        "status": true,
+        "category_id": 28,
+        "children": [
+          {
+            "id": 108,
+            "parent_id": 91,
+            "name": "Java SE 8 Programmer - 1Z0-809",
+            "slug": "ocpjp-scjp",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 61,
+            "status": true
+          },
+          {
+            "id": 178,
+            "parent_id": 91,
+            "name": "Java SE 11 Developer (Upgrade) - 1Z0-817",
+            "slug": "ocpjd-java-se-11-developer-upgrade-1z0-817",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 62,
+            "status": true
+          },
+          {
+            "id": 275,
+            "parent_id": 91,
+            "name": "Java SE 11 Developer - 1Z0-819",
+            "slug": "ocpjd-java-se-11-developer-1z0-819",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 63,
+            "status": true
+          },
+          {
+            "id": 153,
+            "parent_id": 91,
+            "name": "Java SE 11 Programmer I - 1Z0-815",
+            "slug": "ocpjd-java-se-11-programmer-i",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 68,
+            "status": true
+          },
+          {
+            "id": 174,
+            "parent_id": 91,
+            "name": "Java SE 11 Programmer II - 1Z0-816",
+            "slug": "ocpjd-java-se-11-programmer-ii",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 69,
+            "status": true
+          },
+          {
+            "id": 174,
+            "parent_id": 91,
+            "name": "Oracle Database Administration I (1Z0-082)",
+            "slug": "oracle-database-administration-professional-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 69,
+            "status": true
+          },
+          {
+            "id": 17401,
+            "parent_id": 91,
+            "name": "Java SE 17 Developer Exam (1Z0-829)",
+            "slug": "java-se-17-developer-1Z0-829",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 69,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 93,
+        "parent_id": 74,
+        "name": "Oracle Certified Master (OCM)",
+        "slug": "#",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 41,
+        "status": true,
+        "children": [
+          {
+            "id": 117,
+            "parent_id": 93,
+            "name": "Java EE 6 Enterprise Architect - 1Z0-807",
+            "slug": "ocmjea-scea",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 74,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 251,
+        "parent_id": 74,
+        "name": "Oracle Cloud Infrastructure (OCI)",
+        "slug": "#",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 111,
+        "status": true,
+        "children": [
+          {
+            "id": 251,
+            "parent_id": 74,
+            "name": "Oracle Cloud Infrastructure 2022 Foundations Associate Exam (1Z0-1085-22)",
+            "slug": "oracle-cloud-infrastructure-foundations-2021-associate-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 111,
+            "status": true,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "parent_id": null,
+    "name": "Big Data",
+    "slug": "big-data-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-bigdata"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 5,
+    "status": true,
+    "children": [
+      {
+        "id": 196,
+        "parent_id": 61,
+        "name": "Apache Kafka Fundamentals",
+        "slug": "apache-kafka-fundamentals",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 42,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 197,
+        "parent_id": 61,
+        "name": "Hadoop Basics",
+        "slug": "hadoop-basics",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 43,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 199,
+        "parent_id": 61,
+        "name": "ApacheBeam Basics",
+        "slug": "apache-beam-basics",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 44,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 200,
+        "parent_id": 61,
+        "name": "Splunk Basics",
+        "slug": "splunk-basics",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 45,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 212,
+        "parent_id": 61,
+        "name": "Tableau for Beginners",
+        "slug": "tableau-fundamentals",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 46,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1966,
+        "parent_id": 61,
+        "name": "Tableau Desktop Specialist Certification",
+        "slug": "tableau-desktop-specialist",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 48,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 229,
+        "parent_id": 61,
+        "name": "SQL Basics",
+        "slug": "sql-basics",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 50,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 250,
+        "parent_id": 61,
+        "name": "CCA Spark and Hadoop Developer",
+        "slug": "cca-spark-and-hadoop-developer",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 51,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 64,
+        "parent_id": 61,
+        "name": "HDP Certified Administrator (HDPCA) Certification",
+        "slug": "hdpca-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 54,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 66,
+        "parent_id": 61,
+        "name": "Cloudera Certified Administrator (CCA-131) Certification",
+        "slug": "cloudera-cca-admin-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 55,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 578,
+        "parent_id": 61,
+        "name": "Apache Cassandra 3.x Developer Associate Certification",
+        "slug": "apache-cassandra-developer-associate-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 58,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 709,
+        "parent_id": 61,
+        "name": "Introduction to TensorFlow",
+        "slug": "introduction-to-tensorflow",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 60,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 270,
+        "parent_id": 61,
+        "name": "Splunk Core Certified User",
+        "slug": "splunk-core-certified-user",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 62,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "parent_id": null,
+    "name": "Microsoft",
+    "slug": "microsoft-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-microsoft"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 6,
+    "status": true,
+    "children": [
+      {
+        "id": 579,
+        "parent_id": 271,
+        "name": "Microsoft Power Platform",
+        "slug": "microsoft-power-platform",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 63,
+        "status": true,
+        "category_id": 41,
+        "children": [
+          {
+            "id": 272,
+            "parent_id": 579,
+            "name": "Microsoft Power Platform Fundamentals (PL-900)",
+            "slug": "microsoft-power-platform-fundamentals-pl-900",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 75,
+            "status": true
+          },
+          {
+            "id": 1765,
+            "parent_id": 579,
+            "name": "Microsoft Power BI Data Analyst (PL-300)",
+            "slug": "microsoft-power-bi-certification-pl-300",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 76,
+            "status": true
+          },
+          {
+            "id": 610,
+            "parent_id": 579,
+            "name": "Microsoft Power Platform Functional Consultant (PL-200)",
+            "slug": "microsoft-power-functional-consultant-pl-200-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 77,
+            "status": true
+          },
+          {
+            "id": 611,
+            "parent_id": 579,
+            "name": "Microsoft Power BI Masterclass",
+            "slug": "microsoft-power-bi-masterclass",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 78,
+            "status": true
+          },
+          {
+            "id": 612,
+            "parent_id": 579,
+            "name": "PL-400: Microsoft Power Platform Developer",
+            "slug": "microsoft-power-platform-developer-pl400",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 79,
+            "status": true
+          },
+          {
+            "id": 613,
+            "parent_id": 579,
+            "name": "Microsoft Power Platform App Maker (PL-100)",
+            "slug": "microsoft-power-platform-app-maker-pl100",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 80,
+            "status": true
+          },
+          {
+            "id": 614,
+            "parent_id": 579,
+            "name": "Microsoft Power Platform Solution Architect (PL-600)",
+            "slug": "microsoft-power-platform-solution-architect-pl600",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 82,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 615,
+        "parent_id": 271,
+        "name": "Microsoft 365 Certifications",
+        "slug": "microsoft-365-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 64,
+        "status": true,
+        "category_id": 2,
+        "children": [
+          {
+            "id": 1633,
+            "parent_id": 615,
+            "name": "MS 700: Managing Microsoft Teams",
+            "slug": "ms-700-managing-microsoft-teams",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 86,
+            "status": true
+          },
+          {
+            "id": 1831,
+            "parent_id": 615,
+            "name": "MS-600 Exam : Building Applications and Solutions with Microsoft 365 Core Services",
+            "slug": "ms-600-exam-building-applications-and-solutions-with-microsoft-365-core-services",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 87,
+            "status": true
+          },
+          {
+            "id": 907,
+            "parent_id": 615,
+            "name": "MS-900: Microsoft 365 Fundamentals",
+            "slug": "ms-900-microsoft-365-fundamentals",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 89,
+            "status": true
+          },
+          {
+            "id": 1699,
+            "parent_id": 615,
+            "name": "MS-740: Troubleshooting Microsoft Teams",
+            "slug": "ms-740-exam-troubleshooting-microsoft-teams",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 90,
+            "status": true
+          },
+          {
+            "id": 1700,
+            "parent_id": 615,
+            "name": "MS-102: Microsoft 365 Administrator",
+            "slug": "ms-102-exam-microsoft-365-administrator",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 91,
+            "status": true
+          },
+          {
+            "id": 1701,
+            "parent_id": 615,
+            "name": "MD-102: Endpoint Administrator",
+            "slug": "md-102-endpoint-administrator",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 92,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 2063,
+        "parent_id": 271,
+        "name": "Dynamics 365 Certifications",
+        "slug": "dynamics-365-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 65,
+        "status": true,
+        "children": [
+          {
+            "id": 2064,
+            "parent_id": 2063,
+            "name": "MB-910: Microsoft Dynamics 365 Fundamentals (CRM)",
+            "slug": "mb-910-microsoft-dynamics-365-fundamentals-crm",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 91,
+            "status": true
+          },
+          {
+            "id": 2067,
+            "parent_id": 2063,
+            "name": "MB-920: Microsoft Dynamics 365 Fundamentals (ERP)",
+            "slug": "mb-920-microsoft-dynamics-365-fundamentals-erp",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 91,
+            "status": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "parent_id": null,
+    "name": "IT Ops",
+    "slug": "it-ops",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-networking"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 8,
+    "status": true,
+    "children": [
+      {
+        "id": 22401,
+        "parent_id": 95,
+        "name": "CompTIA Linux+ XK0-005",
+        "slug": "comptia_linux_plus_certification_xk0-005",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 90,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 224,
+        "parent_id": 242,
+        "name": "CompTIA PenTest+ (PT0-002)",
+        "slug": "comptia-pentest",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 71,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 243,
+        "parent_id": 242,
+        "name": "CompTIA A+ 220-1101 (Core 1)",
+        "slug": "comptia-a",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 72,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 244,
+        "parent_id": 242,
+        "name": "CompTIA Network+",
+        "slug": "comptia-network",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 73,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1930,
+        "parent_id": 242,
+        "name": "CompTIA CySA+ (CS0-002)",
+        "slug": "comptia-cysa-cs0-002",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 74,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 245,
+        "parent_id": 242,
+        "name": "CompTIA Security+",
+        "slug": "comptia-security",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 75,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 245,
+        "parent_id": 242,
+        "name": "CompTIA Cloud+ Certification Exam [CV0-003]",
+        "slug": "comptia-cloud",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 75,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 257,
+        "parent_id": 242,
+        "name": "Windows Server Administration",
+        "slug": "windows-server-administration",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 76,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 675,
+        "parent_id": 242,
+        "name": "Certified OpenStack Administrator",
+        "slug": "certified-openstack-administrator",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 77,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 676,
+        "parent_id": 242,
+        "name": "IP  Addressing and Subnetting",
+        "slug": "ip-addressing-and-subnetting",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 78,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 677,
+        "parent_id": 242,
+        "name": "Vi and Vim editor - Fundamentals",
+        "slug": "learn-vi-and-vim-editor",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 79,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 678,
+        "parent_id": 242,
+        "name": "Basics of Cryptography",
+        "slug": "basics-of-cryptography",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 80,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 710,
+        "parent_id": 242,
+        "name": "Installing and Configuring IIS Server",
+        "slug": "installing-and-configuring-iis-server",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 81,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 808,
+        "parent_id": 242,
+        "name": "Cassandra Fundamentals",
+        "slug": "cassandra-online-training",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 82,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1402,
+        "parent_id": 242,
+        "name": "CompTIA A+ 220-1102 (Core 2)",
+        "slug": "comptia-a-220-1002-core-2-course",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 83,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1403,
+        "parent_id": 242,
+        "name": "CompTIA Server+ Certification Exam [SK0-005 ]",
+        "slug": "comptia-server",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 84,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1403,
+        "parent_id": 242,
+        "name": "CRISC Certification",
+        "slug": "crisc-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "parent_id": 38,
+    "name": "CompTIA",
+    "slug": "comptia",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-comptia"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 9,
+    "status": true,
+    "children": [
+      {
+        "id": 1402,
+        "parent_id": 38,
+        "name": "CompTIA A+ 220-1102 (Core 2)",
+        "slug": "comptia-a-220-1002-core-2-course",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 82,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1403,
+        "parent_id": 38,
+        "name": "CompTIA Server+ Certification Exam [SK0-005 ]",
+        "slug": "comptia-server",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 83,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1404,
+        "parent_id": 38,
+        "name": "CompTIA Cloud+ CV0-003",
+        "slug": "comptia-cloud",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 84,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1405,
+        "parent_id": 38,
+        "name": "CompTIA Network+ (N10-008)",
+        "slug": "comptia-network",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1406,
+        "parent_id": 38,
+        "name": "CompTIA PenTest+ (PT0-002)",
+        "slug": "comptia-pentest",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1407,
+        "parent_id": 38,
+        "name": "CompTIA Security+ (SY0-601)",
+        "slug": "comptia-security",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1408,
+        "parent_id": 38,
+        "name": "CompTIA A+ 220-1101 (Core 1)",
+        "slug": "comptia-a",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1409,
+        "parent_id": 38,
+        "name": "CompTIA CySA+ (CS0-002)",
+        "slug": "comptia-cysa-cs0-002",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 85,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1410,
+        "parent_id": 38,
+        "name": "CompTIA Linux+ (XK0-005)",
+        "slug": "comptia_linux_plus_certification_xk0-005",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 91,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1411,
+        "parent_id": 38,
+        "name": "CompTIA CySA+ (CS0-003)",
+        "slug": "comptia-cysa-cs0-003",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 91,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1412,
+        "parent_id": 38,
+        "name": "CompTIA Security+ (SY0-701)",
+        "slug": "comptia-security-plus-sy0-701",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": true,
+        "position": 91,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "parent_id": null,
+    "name": "Linux",
+    "slug": "linux-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-linux"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 10,
+    "status": true,
+    "children": [
+      {
+        "id": 227,
+        "parent_id": 95,
+        "name": "Ubuntu Server Administration for beginners",
+        "slug": "ubuntu-server-administration-for-beginners",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 87,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 642,
+        "parent_id": 95,
+        "name": "Bash Scripting Fundamentals",
+        "slug": "bash-scripting-fundamentals",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 88,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 643,
+        "parent_id": 95,
+        "name": "Securing Linux Servers",
+        "slug": "securing-linux-servers",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 89,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 644,
+        "parent_id": 95,
+        "name": "NGINX and LEMP Stack",
+        "slug": "nginx-and-the-lemp-stack",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 90,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 645,
+        "parent_id": 95,
+        "name": "CompTIA Linux+ (XK0-005)",
+        "slug": "comptia_linux_plus_certification_xk0-005",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 91,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "parent_id": null,
+    "name": "Business Analysis",
+    "slug": "business-analysis-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-business-analytics"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 10,
+    "status": true,
+    "children": [
+      {
+        "id": 86,
+        "parent_id": 85,
+        "name": "ECBA® Certification",
+        "slug": "ecba-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 91,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 87,
+        "parent_id": 85,
+        "name": "CCBA® Certification",
+        "slug": "ccba-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 92,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 88,
+        "parent_id": 85,
+        "name": "CBAP® Certification",
+        "slug": "cbap-certification",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 93,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "parent_id": null,
+    "name": "Blockchain",
+    "slug": "blockchain-certifications",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-block-chain"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 11,
+    "status": true,
+    "children": [
+      {
+        "id": 67,
+        "parent_id": 65,
+        "name": "Certified Blockchain Expert",
+        "slug": "certified-blockchain-expert",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": true,
+        "is_comingsoon": false,
+        "position": 95,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 1270,
+    "parent_id": null,
+    "name": "Python",
+    "slug": "python",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon icon-font-python-nav"
+    },
+    "is_new": true,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 12,
+    "status": true,
+    "children": [
+      {
+        "id": 247,
+        "parent_id": 1270,
+        "name": "Python for Beginners",
+        "slug": "python-fundamentals",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 96,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 576,
+        "parent_id": 1270,
+        "name": "Introduction to Data Science with Python",
+        "slug": "data-science-with-python",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 97,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 577,
+        "parent_id": 1270,
+        "name": "Natural Language Processing in Python",
+        "slug": "natural-language-processing-in-python",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 98,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1303,
+        "parent_id": 1270,
+        "name": "TensorFlow for Deep Learning with Python",
+        "slug": "tensorflow-for-deep-learning-with-python",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 99,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 1105,
+    "parent_id": null,
+    "name": "Software Testing",
+    "slug": "software-testing",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon icon-font-soft-test"
+    },
+    "is_new": true,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 13,
+    "status": true,
+    "children": [
+      {
+        "id": 1138,
+        "parent_id": 1105,
+        "name": "Cucumber",
+        "slug": "cucumber",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": true,
+        "position": 101,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1600,
+        "parent_id": 1105,
+        "name": "Selenium Testing",
+        "slug": "selenium-testing",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 102,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1171,
+        "parent_id": 1105,
+        "name": "Jmeter",
+        "slug": "jmeter",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 103,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1172,
+        "parent_id": 1105,
+        "name": "API Testing",
+        "slug": "api-testing",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 104,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1204,
+        "parent_id": 1105,
+        "name": "JUnit",
+        "slug": "junit",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 105,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1205,
+        "parent_id": 1105,
+        "name": "Test Management",
+        "slug": "test-management",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 106,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1435,
+        "parent_id": 1105,
+        "name": "Testing with TestNG",
+        "slug": "testing-with-testng",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 107,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1436,
+        "parent_id": 1105,
+        "name": "Selenium WebDriver with Python",
+        "slug": "selenium-webdriver-with-python",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 107,
+        "status": true,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 841,
+    "parent_id": null,
+    "name": "RPA",
+    "slug": "robotic-process-automation-rpa",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-uipath"
+    },
+    "is_new": true,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 14,
+    "status": true,
+    "children": [
+      {
+        "id": 842,
+        "parent_id": 841,
+        "name": "UiPath Certified RPA Associate (UiRPA)",
+        "slug": "uipath-certified-rpa-associate",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 108,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 1996,
+        "parent_id": 841,
+        "name": "Automation Anywhere Certified Advanced RPA Professional (Automation 360)",
+        "slug": "automation-anywhere-certified-advanced-rpa-professional",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": true,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 109,
+        "status": true,
+        "children": []
+      },
+      {
+        "id": 100,
+        "parent_id": 841,
+        "name": "Blue Prism",
+        "slug": "blue-prism-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": "ico",
+          "icon": "icon-font-blue-prism"
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 110,
+        "status": true,
+        "children": [
+          {
+            "id": 101,
+            "parent_id": 100,
+            "name": "Blue Prism Developer",
+            "slug": "blue-prism-developer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 92,
+            "status": true
+          },
+          {
+            "id": 102,
+            "parent_id": 100,
+            "name": "Blue Prism Professional Developer",
+            "slug": "blue-prism-professional-developer",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 93,
+            "status": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "parent_id": null,
+    "name": "Other Courses",
+    "slug": "#",
+    "group_id": null,
+    "icon": {
+      "icon_type": "ico",
+      "icon": "icon-font-dot"
+    },
+    "is_new": false,
+    "is_popular": false,
+    "is_comingsoon": false,
+    "position": 16,
+    "status": true,
+    "children": [
+      {
+        "id": 82,
+        "parent_id": 126,
+        "name": "Agile",
+        "slug": "agile-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": "ico",
+          "icon": "icon-font-agile"
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 113,
+        "status": true,
+        "children": [
+          {
+            "id": 84,
+            "parent_id": 82,
+            "name": "Professional Scrum Master I",
+            "slug": "professional-scrum-master-i",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": true,
+            "is_comingsoon": false,
+            "position": 94,
+            "status": true
+          },
+          {
+            "id": 83,
+            "parent_id": 82,
+            "name": "PMI - ACP®",
+            "slug": "pmi-acp",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 95,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 144,
+        "parent_id": 126,
+        "name": "Networking",
+        "slug": "networking-certifications",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 114,
+        "status": true,
+        "children": [
+          {
+            "id": 145,
+            "parent_id": 144,
+            "name": "Cisco Certified Network Associate",
+            "slug": "ccna-certification",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": false,
+            "is_popular": false,
+            "is_comingsoon": false,
+            "position": 96,
+            "status": true
+          },
+          {
+            "id": 973,
+            "parent_id": 144,
+            "name": "Wireshark Crash Course",
+            "slug": "wireshark-crash-course",
+            "group_id": null,
+            "icon": {
+              "icon_type": null,
+              "icon": null
+            },
+            "is_new": true,
+            "is_popular": false,
+            "is_comingsoon": true,
+            "position": 97,
+            "status": true
+          }
+        ]
+      },
+      {
+        "id": 1732,
+        "parent_id": 126,
+        "name": "All Courses",
+        "slug": "library",
+        "group_id": null,
+        "icon": {
+          "icon_type": null,
+          "icon": null
+        },
+        "is_new": false,
+        "is_popular": false,
+        "is_comingsoon": false,
+        "position": 115,
+        "status": true,
+        "children": []
+      }
+    ]
+  }
+]

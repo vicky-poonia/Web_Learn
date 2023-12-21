@@ -1,0 +1,349 @@
+[
+    {
+        "id" : 8,
+        "parent_id" : null,
+        "position" : 1,
+        "heading" : "Categories",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : [
+            {
+                "parent_id" : 8,    
+                "position" : 0,
+                "is_new_tab" : 1,
+                "title" : "Training Library",
+                "slug" : "/library"
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 1,
+                "is_new_tab" : 1,
+                "title" : "Cloud Computing Certifications",
+                "slug" : "/cloud-certification-training-courses"
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 2,
+                "is_new_tab" : 1,
+                "title" : "Amazon Web Services (AWS)",
+                "slug" : "/aws-certifications" 
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 3,
+                "is_new_tab" : 1,
+                "title" : "Microsoft Azure",
+                "slug" : "/microsoft-azure-certification-training-courses"
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 4,
+                "is_new_tab" : 1,
+                "title" : "Google Cloud",
+                "slug" : "/google-cloud-certifications" 
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 5,
+                "is_new_tab" : 1,
+                "title" : "DevOps",
+                "slug" : "/devops-certifications"
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 6,
+                "is_new_tab" : 1,
+                "title" : "Cyber Security",
+                "slug" : "/cyber-security-certifications" 
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 7,
+                "is_new_tab" : 1,
+                "title" : "Microsoft Power Platform",
+                "slug" : "/microsoft-power-platform"
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 8,
+                "is_new_tab" : 1,
+                "title" : "Microsoft 365 Certifications",
+                "slug" : "/microsoft-365-certifications" 
+            },
+            {
+                "parent_id" : 8,    
+                "position" : 9,
+                "is_new_tab" : 1,
+                "title" : "Java Certifications",
+                "slug" : "/oracle-java-certifications" 
+            }
+        ]
+    },
+    {
+        "id" : 7,
+        "parent_id" : null,
+        "position" : 2,
+        "heading" : "Popular Courses",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : [
+            {
+                "parent_id" : 7,    
+                "position" : 1,
+                "is_new_tab" : 1,
+                "title" : "AWS Certified Solutions Architect Associate",
+                "slug" : "/aws-solutions-architect-associate"
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 2,
+                "is_new_tab" : 1,
+                "title" : "AWS Certified Cloud Practitioner",
+                "slug" : "/aws-certified-cloud-practitioner" 
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 3,
+                "is_new_tab" : 1,
+                "title" : "Microsoft Azure Exam AZ-204 Certification",
+                "slug" : "/microsoft-azure-certification-az-204"
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 4,
+                "is_new_tab" : 1,
+                "title" : "Microsoft Azure Exam AZ-900 Certification",
+                "slug" : "/microsoft-azure-certification-az-900" 
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 5,
+                "is_new_tab" : 1,
+                "title" : "Google Cloud Certified Associate Cloud Engineer",
+                "slug" : "/google-cloud-certified-associate-cloud-engineer"
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 6,
+                "is_new_tab" : 1,
+                "title" : "Microsoft Power Platform Fundamentals (PL-900)",
+                "slug" : "/microsoft-power-platform-fundamentals-pl-900" 
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 7,
+                "is_new_tab" : 1,
+                "title" : "HashiCorp Certified Terraform Associate Certification",
+                "slug" : "/hashicorp-certified-terraform-associate"
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 8,
+                "is_new_tab" : 1,
+                "title" : "Snowflake SnowPro Core Certification",
+                "slug" : "/snowflake-snowpro-core-certification" 
+            },
+            {
+                "parent_id" : 7,    
+                "position" : 9,
+                "is_new_tab" : 1,
+                "title" : "Docker Certified Associate",
+                "slug" : "/docker-certified-associate" 
+            }
+        ]
+    },
+    {
+        "id" : 1,
+        "parent_id" : null,
+        "position" : 3,
+        "heading" : "Company",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : [
+            {
+                "parent_id" : 1,    
+                "position" : 1,
+                "is_new_tab" : 1,
+                "title" : "About Us",
+                "slug" : "/about-us"
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 2,
+                "is_new_tab" : 1,
+                "title" : "Blog",
+                "slug" : "https://www.whizlabs.com/blog" 
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 3,
+                "is_new_tab" : 1,
+                "title" : "Reviews",
+                "slug" : "/reviews"
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 4,
+                "is_new_tab" : 1,
+                "title" : "Careers",
+                "slug" : "/careers" 
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 5,
+                "is_new_tab" : 1,
+                "title" : "Become an Affiliate",
+                "slug" : "/whizlabs-affiliate-program"
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 6,
+                "is_new_tab" : 1,
+                "title" : "Become Our Instructor",
+                "slug" : "/become-an-instructor" 
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 7,
+                "is_new_tab" : 1,
+                "title" : "Team Account",
+                "slug" : "https://business.whizlabs.com"
+            },
+            {
+                "parent_id" : 1,    
+                "position" : 8,
+                "is_new_tab" : 1,
+                "title" : "AWS Consulting Services",
+                "slug" : "/aws-consulting-services" 
+            }
+        ]
+    },
+    {
+        "id" : 5,
+        "parent_id" : null,
+        "position" : 4,
+        "heading" : "Legal",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : [
+            {
+                "parent_id" : 5,    
+                "position" : 1,
+                "is_new_tab" : 1,
+                "title" : "Privacy Policy",
+                "slug" : "/privacy-policy"
+            },
+            {
+                "parent_id" : 5,    
+                "position" : 2,
+                "is_new_tab" : 1,
+                "title" : "Terms of Use",
+                "slug" : "/terms-of-use" 
+            },
+            {
+                "parent_id" : 5,    
+                "position" : 3,
+                "is_new_tab" : 1,
+                "title" : "EULA",
+                "slug" : "/end-user-license-agreement"
+            },
+            {
+                "parent_id" : 5,    
+                "position" : 4,
+                "is_new_tab" : 1,
+                "title" : "Refund Policy",
+                "slug" : "/refund-policy" 
+            },
+            {
+                "parent_id" : 5,    
+                "position" : 5,
+                "is_new_tab" : 1,
+                "title" : "Programs Guarantee",
+                "slug" : "/our-learning-programs-guarantee"
+            }
+        ]   
+    },
+    {
+        "id" : 2,
+        "parent_id" : null,
+        "position" : 5,
+        "heading" : "Support",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : [
+            {
+                "parent_id" : 2,    
+                "position" : 1,
+                "is_new_tab" : 1,
+                "title" : "Contact Us",
+                "slug" : "/contact-us"
+            },
+            {
+                "parent_id" : 2,    
+                "position" : 3,
+                "is_new_tab" : 1,
+                "title" : "Discussions",
+                "slug" : "https://www.whizlabs.com/forums"
+            },
+            {
+                "parent_id" : 2,    
+                "position" : 4,
+                "is_new_tab" : 1,
+                "title" : "FAQs",
+                "slug" : "/faqs" 
+            }
+        ]  
+    },
+    {
+        "id" : 4,
+        "parent_id" : null,
+        "position" : 6,
+        "heading" : "Disclaimer",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : "<p>PMI®, Project Management Body of Knowledge (PMBOK® Guide), PMP®, PMI-RMP®, PMI-PBA®, CAPM®, PMI-ACP® and PMI Registered Education Provider Logo are registered marks of the Project Management Institute, Inc.</p>\r\n<p>PRINCE2® is a [registered] mark of AXELOS Limited, used under permission of AXELOS Limited. All rights reserved.</p>",
+        "menu_name" : null,
+        "children" : ""
+    },
+    {
+        "id" : 3,
+        "parent_id" : null,
+        "position" : 7,
+        "heading" : "Follow us",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : "<a class=\"icon-facebook\" href=\"https://www.facebook.com/whizlabs.software/\" target=\"_blank\" rel=\"noopener\"> </a> <a class=\"icon-twitter\" href=\"https://twitter.com/whizlabs\" target=\"_blank\" rel=\"noopener\"> </a> <a class=\"icon-linkedin\" href=\"https://www.linkedin.com/company/whizlabs-software/\" target=\"_blank\" rel=\"noopener\"> </a>",
+        "menu_name" : null,
+        "children" : ""
+    },
+    {
+        "id" : 6,
+        "parent_id" : null,
+        "position" : 8,
+        "heading" : "Address",
+        "slug" : null,
+        "status" : "1",
+        "created_by" : 1,
+        "menu_description" : null,
+        "menu_name" : null,
+        "children" : ""
+    }
+
+]
